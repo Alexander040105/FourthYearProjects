@@ -11,3 +11,5 @@ pydantic-settings
 python-dotenv
 ipykernel
 notebook
+streamlit
+pyarrow

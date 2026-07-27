@@ -1,0 +1,70 @@
+{
+  "dataset": "juanmart_raw_sales.csv",
+  "generated_by": "1.1_data_profiling.ipynb",
+  "row_count": 12,
+  "duplicate_count": 2,
+  "duplicate_transaction_ids": [1001, 1005],
+  "null_counts_per_column": {
+    "transaction_id": 0,
+    "cust_name": 2,
+    "region": 0,
+    "order_date": 0,
+    "amount_paid": 2,
+    "status": 0
+  },
+  "distinct_raw_region_values": [
+    "CALABARZON",
+    "Metro Manila",
+    "NCR",
+    "Region IV-A",
+    "calabarzon",
+    "ncr"
+  ],
+  "standardized_region_mapping": {
+    "NCR": "National Capital Region",
+    "ncr": "National Capital Region",
+    "Metro Manila": "National Capital Region",
+    "Manila": "National Capital Region",
+    "CALABARZON": "CALABARZON",
+    "calabarzon": "CALABARZON",
+    "Region IV-A": "CALABARZON"
+  },
+  "distinct_date_formats": {
+    "YYYY-MM-DD": 6,
+    "YYYY/MM/DD": 6
+  },
+  "distinct_status_values": [
+    "Cancelled",
+    "Completed",
+    "Returned"
+  ],
+  "anomalies": {
+    "duplicates": {
+      "count": 2,
+      "affected_transaction_ids": [1001, 1005],
+      "description": "Exact duplicate rows — same transaction_id with identical values across all columns"
+    },
+    "missing_cust_name": {
+      "count": 2,
+      "affected_transaction_ids": [1003, 1008],
+      "description": "Customer name field is blank/null — rows should be quarantined"
+    },
+    "missing_amount_paid": {
+      "count": 2,
+      "affected_transaction_ids": [1004, 1007],
+      "description": "Amount paid is null — fill with regional median after standardization"
+    },
+    "inconsistent_region_naming": {
+      "raw_value_count": 6,
+      "standardized_count": 2,
+      "description": "Region column has 6 distinct string variants for only 2 actual regions"
+    },
+    "mixed_date_formats": {
+      "format_count": 2,
+      "description": "order_date contains both YYYY-MM-DD (6 rows) and YYYY/MM/DD (6 rows)"
+    }
+  },
+  "data_quality_score": 88.89,
+  "data_quality_score_formula": "(1 - (duplicate_count + total_nulls) / (row_count * column_count) * 100) * 100",
+  "overall_assessment": "MODERATE — Data requires cleansing before warehouse load. Duplicates, nulls, and inconsistent formatting detected but no structural corruption."
+}
