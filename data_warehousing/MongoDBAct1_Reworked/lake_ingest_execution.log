@@ -1,0 +1,14 @@
+2026-08-06 02:31:10,054 - INFO - Initializing Data Lake MongoClient connection pool...
+2026-08-06 02:31:10,054 - INFO - [+] Successfully established Data Lake connection to: juanmart_data_lake
+2026-08-06 02:31:10,054 - INFO - [*] Commencing raw JSON payload stream ingestion...
+2026-08-06 02:31:10,066 - INFO - [-] Staging 1,500 raw JSON documents into collection: raw_checkout_landing
+2026-08-06 02:31:10,117 - INFO - [+] Ingestion Complete. Bulk Insert Acknowledged: True
+2026-08-06 02:31:10,147 - INFO - ======================================================
+2026-08-06 02:31:10,147 - INFO - DATA LAKE LANDING AUDIT 
+2026-08-06 02:31:10,148 - INFO - ======================================================
+2026-08-06 02:31:10,148 - INFO - TOTAL DOCUMENTS LANDED : 1,500
+2026-08-06 02:31:10,148 - INFO - WEB_STORE STREAM : 820 documents
+2026-08-06 02:31:10,148 - INFO - POS_TERMINALS STREAM : 450 documents
+2026-08-06 02:31:10,148 - INFO - MOBILE_APP STREAM : 230 documents
+2026-08-06 02:31:10,148 - INFO - ======================================================
+2026-08-06 02:31:10,149 - INFO - [+] Data Lake MongoClient connection pool gracefully closed.

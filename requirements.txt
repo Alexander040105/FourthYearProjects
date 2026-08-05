@@ -13,3 +13,4 @@ ipykernel
 notebook
 streamlit
 pyarrow
+pymongo[srv]

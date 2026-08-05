@@ -1,0 +1,189 @@
+{
+  "database": "juanmart_data_lake",
+  "collection": "raw_checkout_landing",
+  "audit_notes": "Run these native MongoDB aggregation queries against the landing collection before implementing transformation logic. Each query is a named pipeline that can be passed to db.raw_checkout_landing.aggregate(...).",
+  "queries": [
+    {
+      "name": "landing_document_count",
+      "description": "Count the number of documents landed in the collection.",
+      "pipeline": [
+        { "$count": "total_documents" }
+      ]
+    },
+    {
+      "name": "stream_count_by_source",
+      "description": "Count landed documents grouped by source stream.",
+      "pipeline": [
+        { "$group": { "_id": "$source", "count": { "$sum": 1 } } },
+        { "$sort": { "count": -1 } }
+      ]
+    },
+    {
+      "name": "required_field_presence_audit",
+      "description": "Audit whether core top-level fields are present and non-empty.",
+      "pipeline": [
+        {
+          "$project": {
+            "source": { "$ifNull": ["$source", ""] },
+            "eventType": { "$ifNull": ["$eventType", ""] },
+            "payload": { "$ifNull": ["$payload", ""] },
+            "ingestedAt": { "$ifNull": ["$ingestedAt", ""] },
+            "_source_file": { "$ifNull": ["$_source_file", ""] }
+          }
+        },
+        {
+          "$group": {
+            "_id": null,
+            "documents_with_source": { "$sum": { "$cond": [{ "$ne": ["$source", ""] }, 1, 0] } },
+            "documents_with_eventType": { "$sum": { "$cond": [{ "$ne": ["$eventType", ""] }, 1, 0] } },
+            "documents_with_payload": { "$sum": { "$cond": [{ "$ne": ["$payload", ""] }, 1, 0] } },
+            "documents_with_ingestedAt": { "$sum": { "$cond": [{ "$ne": ["$ingestedAt", ""] }, 1, 0] } },
+            "documents_with_source_file": { "$sum": { "$cond": [{ "$ne": ["$_source_file", ""] }, 1, 0] } },
+            "total_documents": { "$sum": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "name": "empty_or_null_value_audit",
+      "description": "Find documents with empty strings, nulls, or missing values in key fields.",
+      "pipeline": [
+        {
+          "$match": {
+            "$or": [
+              { "source": { "$in": [null, ""] } },
+              { "eventType": { "$in": [null, ""] } },
+              { "payload": { "$in": [null, ""] } }
+            ]
+          }
+        },
+        { "$project": { "_id": 1, "source": 1, "eventType": 1, "payload": 1, "ingestedAt": 1 } },
+        { "$limit": 50 }
+      ]
+    },
+    {
+      "name": "array_payload_audit",
+      "description": "Find documents where the top-level payload field is an array rather than an object.",
+      "pipeline": [
+        { "$match": { "payload": { "$type": "array" } } },
+        { "$project": { "_id": 1, "source": 1, "eventType": 1, "array_length": { "$size": "$payload" }, "ingestedAt": 1 } },
+        { "$limit": 50 }
+      ]
+    },
+    {
+      "name": "payload_shape_profile",
+      "description": "Profile the keys present inside the nested payload object.",
+      "pipeline": [
+        { "$match": { "payload": { "$type": "object" } } },
+        {
+          "$project": {
+            "payload_keys": {
+              "$map": {
+                "input": { "$objectToArray": "$payload" },
+                "as": "entry",
+                "in": "$$entry.k"
+              }
+            }
+          }
+        },
+        { "$unwind": "$payload_keys" },
+        { "$group": { "_id": "$payload_keys", "occurrences": { "$sum": 1 } } },
+        { "$sort": { "occurrences": -1 } }
+      ]
+    },
+    {
+      "name": "nested_array_field_profile",
+      "description": "Profile nested array fields inside the payload object, grouped by source and key.",
+      "pipeline": [
+        { "$match": { "payload": { "$type": "object" } } },
+        { "$project": { "source": 1, "payload_entries": { "$objectToArray": "$payload" } } },
+        { "$unwind": "$payload_entries" },
+        { "$match": { "payload_entries.v": { "$type": "array" } } },
+        { "$project": { "source": 1, "key": "$payload_entries.k", "length": { "$size": "$payload_entries.v" } } },
+        {
+          "$group": {
+            "_id": { "source": "$source", "key": "$key" },
+            "count": { "$sum": 1 },
+            "avg_length": { "$avg": "$length" },
+            "sample_lengths": { "$push": "$length" }
+          }
+        },
+        { "$sort": { "count": -1 } }
+      ]
+    },
+    {
+      "name": "nested_missing_value_audit",
+      "description": "Find payload objects that are missing common nested fields such as total or timestamp.",
+      "pipeline": [
+        { "$match": { "payload": { "$type": "object" } } },
+        {
+          "$project": {
+            "source": 1,
+            "eventType": 1,
+            "has_total": { "$cond": [{ "$ifNull": ["$payload.total", false] }, true, false] },
+            "has_timestamp": { "$cond": [{ "$ifNull": ["$payload.timestamp", false] }, true, false] },
+            "total_value": "$payload.total",
+            "timestamp_value": "$payload.timestamp"
+          }
+        },
+        { "$match": { "$or": [{ "has_total": false }, { "has_timestamp": false }] } },
+        { "$limit": 50 }
+      ]
+    },
+    {
+      "name": "ingestion_freshness_profile",
+      "description": "Review ingestion timestamps to understand recency and distribution.",
+      "pipeline": [
+        {
+          "$group": {
+            "_id": null,
+            "latest_ingested_at": { "$max": "$ingestedAt" },
+            "earliest_ingested_at": { "$min": "$ingestedAt" },
+            "documents_count": { "$sum": 1 }
+          }
+        }
+      ]
+    },
+    {
+      "name": "duplicate_payload_signature_audit",
+      "description": "Detect exact duplicate landing records by source, eventType, and full payload contents.",
+      "pipeline": [
+        {
+          "$group": {
+            "_id": { "source": "$source", "eventType": "$eventType", "payload": "$payload" },
+            "count": { "$sum": 1 },
+            "sample_documents": { "$push": { "_id": "$_id", "source": "$source", "eventType": "$eventType" } }
+          }
+        },
+        { "$match": { "count": { "$gt": 1 } } },
+        { "$sort": { "count": -1 } },
+        { "$limit": 20 }
+      ]
+    },
+    {
+      "name": "date_format_profile",
+      "description": "Profile the raw timestamp strings in the payload to identify varying date formats.",
+      "pipeline": [
+        { "$match": { "payload": { "$type": "object" }, "payload.timestamp": { "$exists": true } } },
+        {
+          "$project": {
+            "source": 1,
+            "timestamp_string": { "$toString": "$payload.timestamp" },
+            "is_iso_like": { "$regexMatch": { "input": { "$toString": "$payload.timestamp" }, "regex": "^\\d{4}-\\d{2}-\\d{2}T" } },
+            "is_us_like": { "$regexMatch": { "input": { "$toString": "$payload.timestamp" }, "regex": "^\\d{2}/\\d{2}/\\d{4}" } },
+            "is_eu_like": { "$regexMatch": { "input": { "$toString": "$payload.timestamp" }, "regex": "^\\d{2}-\\d{2}-\\d{4}" } }
+          }
+        },
+        {
+          "$group": {
+            "_id": { "source": "$source", "is_iso_like": "$is_iso_like", "is_us_like": "$is_us_like", "is_eu_like": "$is_eu_like" },
+            "count": { "$sum": 1 },
+            "samples": { "$push": "$timestamp_string" }
+          }
+        },
+        { "$sort": { "count": -1 } },
+        { "$limit": 20 }
+      ]
+    }
+  ]
+}
