@@ -1,0 +1,20 @@
+[
+  {
+    "source": "mock",
+    "eventType": "landing",
+    "message": "Sample raw payload",
+    "payload": {
+      "id": 1,
+      "status": "new"
+    }
+  },
+  {
+    "source": "mock",
+    "eventType": "landing",
+    "message": "Second sample raw payload",
+    "payload": {
+      "id": 2,
+      "status": "processed"
+    }
+  }
+]

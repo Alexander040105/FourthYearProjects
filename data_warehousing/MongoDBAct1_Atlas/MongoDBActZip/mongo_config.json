@@ -1,0 +1,10 @@
+{
+  "uri": "mongodb://localhost:27017",
+  "database": "juanmart_data_lake",
+  "server_selection_timeout_ms": 5000,
+  "connect_timeout_ms": 10000,
+  "max_pool_size": 100,
+  "min_pool_size": 0,
+  "retry_writes": true,
+  "app_name": "mongo-driver-module"
+}
