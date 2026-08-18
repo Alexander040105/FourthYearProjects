@@ -1,0 +1,23 @@
+/* Problem 23: Debug: Box Model Overflow */
+/* Category: CSS & Tailwind — Difficulty: Easy — Type: Debug */
+/*  */
+/* **Problem:** */
+/* ```css */
+/* .box { */
+/*   width: 300px; */
+/*   padding: 20px; */
+/*   border: 2px solid black; */
+/* } */
+/* ``` */
+/* The rendered box is wider than 300px. Add one global rule so that `width: 300px` means the whole box including padding and border. */
+/*  */
+/*  */
+/* **Constraints:** */
+/* The rule should apply to all elements. */
+/*  */
+/*  */
+/* **Prelims topic:** */
+/* box model, `box-sizing`. */
+
+/* ========================== YOUR ANSWER BELOW ========================== */
+/* Write your CSS / Tailwind answer here */

@@ -1,0 +1,17 @@
+/* Problem 33: Debug: Specificity War */
+/* Category: CSS & Tailwind — Difficulty: Hard — Type: Debug */
+/*  */
+/* **Problem:** */
+/* A stylesheet is full of selectors like `#header #nav a` and `#main #nav a` and uses `!important` for colors. Link colors are inconsistent and hard to override. Refactor the nav to use simple class selectors and remove `!important`. */
+/*  */
+/*  */
+/* **Constraints:** */
+/* - No `!important`. */
+/* - No `id` selectors in the nav styles. */
+/*  */
+/*  */
+/* **Prelims topic:** */
+/* specificity, selector simplification. */
+
+/* ========================== YOUR ANSWER BELOW ========================== */
+/* Write your CSS / Tailwind answer here */

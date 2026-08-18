@@ -1,0 +1,34 @@
+/* Problem 19: Basic Text Styles */
+/* Category: CSS & Tailwind — Difficulty: Easy — Type: Build */
+/*  */
+/* **Problem:** */
+/* Write a CSS rule for `body` that sets: */
+/* - `font-family` with fallbacks `'Calibri', Arial, sans-serif` */
+/* - `font-size: 16px` */
+/* - `line-height: 1.5` */
+/* - `color: #2B2D42` */
+/*  */
+/* Also write a `.muted` class that uses `#676C8A`. */
+/*  */
+/*  */
+/* **Example:** */
+/* ```css */
+/* body { */
+/*   font-family: 'Calibri', Arial, sans-serif; */
+/*   font-size: 16px; */
+/*   line-height: 1.5; */
+/*   color: #2B2D42; */
+/* } */
+/* .muted { color: #676C8A; } */
+/* ``` */
+/*  */
+/*  */
+/* **Constraints:** */
+/* Include font fallbacks. */
+/*  */
+/*  */
+/* **Prelims topic:** */
+/* text styling, color, units. */
+
+/* ========================== YOUR ANSWER BELOW ========================== */
+/* Write your CSS / Tailwind answer here */

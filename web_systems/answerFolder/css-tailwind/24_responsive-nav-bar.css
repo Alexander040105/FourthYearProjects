@@ -1,0 +1,34 @@
+/* Problem 24: Responsive Nav Bar */
+/* Category: CSS & Tailwind — Difficulty: Medium — Type: Build */
+/*  */
+/* **Problem:** */
+/* Build a responsive navigation bar with plain CSS. On mobile, the logo and links stack vertically. On desktop (`min-width: 768px`), they sit in a row with the logo on the left and the links on the right. */
+/*  */
+/*  */
+/* **Example:** */
+/* ```css */
+/* .nav { */
+/*   display: flex; */
+/*   flex-direction: column; */
+/*   gap: 16px; */
+/* } */
+/* @media (min-width: 768px) { */
+/*   .nav { */
+/*     flex-direction: row; */
+/*     justify-content: space-between; */
+/*     align-items: center; */
+/*   } */
+/* } */
+/* ``` */
+/*  */
+/*  */
+/* **Constraints:** */
+/* - Mobile-first: write base styles for small screens, then add a media query. */
+/* - Use flexbox. */
+/*  */
+/*  */
+/* **Prelims topic:** */
+/* flexbox, media queries, responsive design. */
+
+/* ========================== YOUR ANSWER BELOW ========================== */
+/* Write your CSS / Tailwind answer here */

@@ -71,7 +71,9 @@ A set of **original** LeetCode-style problems, debug exercises, and build tasks 
 
 **Category:** React.js — **Difficulty:** Easy — **Type:** Build
 
-**Problem:** Write a React component named `Counter` that starts at `0` and shows a paragraph `You have clicked the button {count} times.`. Add a button with an `onClick` handler that increments the count. Use a React Fragment instead of wrapping the returned elements in a `<div>`.
+**Problem:**
+Write a React component named `Counter` that starts at `0` and shows a paragraph `You have clicked the button {count} times.`. Add a button with an `onClick` handler that increments the count. Use a React Fragment instead of wrapping the returned elements in a `<div>`.
+
 
 **Example:**
 After 3 clicks, the page should display:
@@ -79,12 +81,15 @@ After 3 clicks, the page should display:
 You have clicked the button 3 times.
 ```
 
+
 **Constraints:**
 - Root component name must be PascalCase.
 - Use `useState` and an `onClick` function.
 - Do not mutate state directly.
 
-**Prelims topic:** `useState`, JSX, React Fragment, event handlers.
+
+**Prelims topic:**
+`useState`, JSX, React Fragment, event handlers.
 
 ---
 
@@ -92,7 +97,8 @@ You have clicked the button 3 times.
 
 **Category:** React.js — **Difficulty:** Easy — **Type:** Debug
 
-**Problem:** The following component throws a React warning about an invalid DOM property.
+**Problem:**
+The following component throws a React warning about an invalid DOM property.
 ```jsx
 export default function App() {
   return <h1 class="title">Hello</h1>;
@@ -100,14 +106,13 @@ export default function App() {
 ```
 Fix the attribute used for CSS classes in JSX, and add a Tailwind class `text-navy` so both `title` and the color utility are applied.
 
-**Expected fix:**
-```jsx
-<h1 className="title text-navy">Hello</h1>
-```
 
-**Constraints:** Use `className`, not `class`, inside JSX.
+**Constraints:**
+Use `className`, not `class`, inside JSX.
 
-**Prelims topic:** `className` vs `class`, Tailwind classes in React.
+
+**Prelims topic:**
+`className` vs `class`, Tailwind classes in React.
 
 ---
 
@@ -115,11 +120,13 @@ Fix the attribute used for CSS classes in JSX, and add a Tailwind class `text-na
 
 **Category:** React.js — **Difficulty:** Easy — **Type:** Build
 
-**Problem:** Given the array:
+**Problem:**
+Given the array:
 ```js
 const fruits = ['Apple', 'Banana', 'Orange'];
 ```
 Write a `FruitList` component that renders each fruit as an `<li>` inside a `<ul>`. Use `map()` and provide a unique `key` prop for every list item.
+
 
 **Example output:**
 ```html
@@ -130,11 +137,14 @@ Write a `FruitList` component that renders each fruit as an `<li>` inside a `<ul
 </ul>
 ```
 
+
 **Constraints:**
 - Use `map()` to render the list.
 - Each `<li>` must have a `key` prop.
 
-**Prelims topic:** list rendering, the `key` prop.
+
+**Prelims topic:**
+list rendering, the `key` prop.
 
 ---
 
@@ -142,7 +152,8 @@ Write a `FruitList` component that renders each fruit as an `<li>` inside a `<ul
 
 **Category:** React.js — **Difficulty:** Easy — **Type:** Debug
 
-**Problem:** This component fails to compile.
+**Problem:**
+This component fails to compile.
 ```jsx
 export default function App() {
   return (
@@ -153,21 +164,13 @@ export default function App() {
 ```
 Fix it by wrapping the adjacent elements in a React Fragment without adding an extra `<div>`.
 
-**Expected fix:**
-```jsx
-export default function App() {
-  return (
-    <>
-      <h1>Title</h1>
-      <p>Subtitle</p>
-    </>
-  );
-}
-```
 
-**Constraints:** Do not wrap in `<div>`.
+**Constraints:**
+Do not wrap in `<div>`.
 
-**Prelims topic:** React Fragment (`<>...</>`).
+
+**Prelims topic:**
+React Fragment (`<>...</>`).
 
 ---
 
@@ -175,7 +178,8 @@ export default function App() {
 
 **Category:** React.js — **Difficulty:** Easy — **Type:** Build
 
-**Problem:** Write a React component `App` that stores the page title in a variable and renders:
+**Problem:**
+Write a React component `App` that stores the page title in a variable and renders:
 ```html
 <header>
   <h1>{title}</h1>
@@ -186,11 +190,17 @@ export default function App() {
 ```
 The title should come from a JavaScript variable and be embedded using curly braces.
 
-**Example:** If `title = "My React App"`, the page shows an `<h1>` and a `<p>` both containing that title.
 
-**Constraints:** Use a JS expression inside `{ }`.
+**Example:**
+If `title = "My React App"`, the page shows an `<h1>` and a `<p>` both containing that title.
 
-**Prelims topic:** dynamic JavaScript expressions in JSX.
+
+**Constraints:**
+Use a JS expression inside `{ }`.
+
+
+**Prelims topic:**
+dynamic JavaScript expressions in JSX.
 
 ---
 
@@ -198,7 +208,8 @@ The title should come from a JavaScript variable and be embedded using curly bra
 
 **Category:** React.js — **Difficulty:** Easy — **Type:** Debug
 
-**Problem:** This code either crashes or re-renders in a loop.
+**Problem:**
+This code either crashes or re-renders in a loop.
 ```jsx
 export default function App() {
   const [count, setCount] = useState(0);
@@ -207,14 +218,13 @@ export default function App() {
 ```
 Fix the `onClick` so it calls the updater correctly when the button is clicked.
 
-**Expected fix:**
-```jsx
-<button onClick={() => setCount(count + 1)}>Click</button>
-```
 
-**Constraints:** `onClick` must receive a function, not a function call.
+**Constraints:**
+`onClick` must receive a function, not a function call.
 
-**Prelims topic:** event handlers, camelCase `onClick`.
+
+**Prelims topic:**
+event handlers, camelCase `onClick`.
 
 ---
 
@@ -224,17 +234,22 @@ Fix the `onClick` so it calls the updater correctly when the button is clicked.
 
 **Category:** React.js — **Difficulty:** Medium — **Type:** Build
 
-**Problem:** Build a `ProjectList` component that receives an array of project objects `{id, title, tech}` and renders them. Add an `<input>` search box that filters the list by `title` or `tech` (case-insensitive) as the user types.
+**Problem:**
+Build a `ProjectList` component that receives an array of project objects `{id, title, tech}` and renders them. Add an `<input>` search box that filters the list by `title` or `tech` (case-insensitive) as the user types.
+
 
 **Example:**
 Given `[{id:1, title:"Weather App", tech:"React"}, {id:2, title:"Inventory", tech:"FastAPI"}]` and the search term `"React"`, only the Weather App card is shown.
+
 
 **Constraints:**
 - Use `useState` for the search term.
 - Use `filter()` on the projects array.
 - Each rendered item must have a `key`.
 
-**Prelims topic:** controlled input, `filter()`, list rendering.
+
+**Prelims topic:**
+controlled input, `filter()`, list rendering.
 
 ---
 
@@ -242,7 +257,8 @@ Given `[{id:1, title:"Weather App", tech:"React"}, {id:2, title:"Inventory", tec
 
 **Category:** React.js — **Difficulty:** Medium — **Type:** Debug
 
-**Problem:** The UI does not update when `add` is called.
+**Problem:**
+The UI does not update when `add` is called.
 ```jsx
 export default function TodoList() {
   const [todos, setTodos] = useState(['Buy milk']);
@@ -260,14 +276,13 @@ export default function TodoList() {
 ```
 Fix the state update so React re-renders correctly.
 
-**Expected fix:**
-```js
-const add = () => setTodos([...todos, 'Walk dog']);
-```
 
-**Constraints:** Do not mutate state directly.
+**Constraints:**
+Do not mutate state directly.
 
-**Prelims topic:** immutable state updates, arrays in state.
+
+**Prelims topic:**
+immutable state updates, arrays in state.
 
 ---
 
@@ -275,7 +290,9 @@ const add = () => setTodos([...todos, 'Walk dog']);
 
 **Category:** React.js — **Difficulty:** Medium — **Type:** Build
 
-**Problem:** Create a `Button` component that accepts `label`, `onClick`, and `color` props. Render a `<button>` whose text is `label`, whose click handler is `onClick`, and whose background uses the Tailwind color class passed in `color` (e.g., `"bg-blue-500"`). Use it inside `App` to render two different colored buttons.
+**Problem:**
+Create a `Button` component that accepts `label`, `onClick`, and `color` props. Render a `<button>` whose text is `label`, whose click handler is `onClick`, and whose background uses the Tailwind color class passed in `color` (e.g., `"bg-blue-500"`). Use it inside `App` to render two different colored buttons.
+
 
 **Example:**
 ```jsx
@@ -283,11 +300,14 @@ const add = () => setTodos([...todos, 'Walk dog']);
 ```
 renders a blue button with the text "Save".
 
+
 **Constraints:**
 - Use destructured props.
 - Use `className` with the Tailwind class.
 
-**Prelims topic:** components, props, Tailwind in React.
+
+**Prelims topic:**
+components, props, Tailwind in React.
 
 ---
 
@@ -295,16 +315,21 @@ renders a blue button with the text "Save".
 
 **Category:** React.js — **Difficulty:** Medium — **Type:** Build
 
-**Problem:** Build a form with two inputs: `name` and `email`. Store both in a single state object `{name: '', email: ''}`. On submit, prevent the default form action and log the current state to the console.
+**Problem:**
+Build a form with two inputs: `name` and `email`. Store both in a single state object `{name: '', email: ''}`. On submit, prevent the default form action and log the current state to the console.
+
 
 **Example:**
 Typing "Ana" in the name field and "ana@mail.com" in the email field, then pressing submit, logs `{name: "Ana", email: "ana@mail.com"}`.
+
 
 **Constraints:**
 - Use one `useState` object.
 - Each input must update its own field in the object.
 
-**Prelims topic:** form state, controlled components, event handlers.
+
+**Prelims topic:**
+form state, controlled components, event handlers.
 
 ---
 
@@ -312,7 +337,8 @@ Typing "Ana" in the name field and "ana@mail.com" in the email field, then press
 
 **Category:** React.js — **Difficulty:** Medium — **Type:** Debug
 
-**Problem:** Rapidly clicking the button only increments by the value that existed when the button was first clicked.
+**Problem:**
+Rapidly clicking the button only increments by the value that existed when the button was first clicked.
 ```jsx
 function Counter() {
   const [count, setCount] = useState(0);
@@ -322,14 +348,13 @@ function Counter() {
 ```
 Fix the update so it always uses the latest state.
 
-**Expected fix:**
-```js
-setTimeout(() => setCount(c => c + 1), 1000)
-```
 
-**Constraints:** Use the functional updater form of `setCount`.
+**Constraints:**
+Use the functional updater form of `setCount`.
 
-**Prelims topic:** `useState` updater, closures.
+
+**Prelims topic:**
+`useState` updater, closures.
 
 ---
 
@@ -337,15 +362,21 @@ setTimeout(() => setCount(c => c + 1), 1000)
 
 **Category:** React.js — **Difficulty:** Medium — **Type:** Build
 
-**Problem:** Build a `Tabs` component with tabs "Projects", "About", and "Contact". Only the content for the currently active tab is visible. Use `useState` to track the active tab and a function to switch between them.
+**Problem:**
+Build a `Tabs` component with tabs "Projects", "About", and "Contact". Only the content for the currently active tab is visible. Use `useState` to track the active tab and a function to switch between them.
 
-**Example:** Clicking the "About" tab shows the About section and hides the others.
+
+**Example:**
+Clicking the "About" tab shows the About section and hides the others.
+
 
 **Constraints:**
 - Use conditional rendering.
 - Use a single state value for the active tab.
 
-**Prelims topic:** conditional rendering, state.
+
+**Prelims topic:**
+conditional rendering, state.
 
 ---
 
@@ -355,7 +386,9 @@ setTimeout(() => setCount(c => c + 1), 1000)
 
 **Category:** React.js — **Difficulty:** Hard — **Type:** Build
 
-**Problem:** Build a `Cart` component with products `Apple` (₱15) and `Banana` (₱10). Display each product with minus/plus buttons, the current quantity, and a running total. Store quantities in a state object `{Apple: 1, Banana: 2}` and update it immutably.
+**Problem:**
+Build a `Cart` component with products `Apple` (₱15) and `Banana` (₱10). Display each product with minus/plus buttons, the current quantity, and a running total. Store quantities in a state object `{Apple: 1, Banana: 2}` and update it immutably.
+
 
 **Example:**
 Initial render shows:
@@ -366,11 +399,14 @@ Total: ₱35
 ```
 Clicking `+` for Apple updates the quantity and total.
 
+
 **Constraints:**
 - State must be immutable.
 - Total must be a derived value computed from state.
 
-**Prelims topic:** nested object state, derived state, event handlers.
+
+**Prelims topic:**
+nested object state, derived state, event handlers.
 
 ---
 
@@ -378,7 +414,8 @@ Clicking `+` for Apple updates the quantity and total.
 
 **Category:** React.js — **Difficulty:** Hard — **Type:** Debug
 
-**Problem:** When the list is reordered, React does not update correctly and a console warning appears.
+**Problem:**
+When the list is reordered, React does not update correctly and a console warning appears.
 ```jsx
 function List({ items }) {
   return <ul>{items.map(item => <li>{item}</li>)}</ul>;
@@ -386,14 +423,13 @@ function List({ items }) {
 ```
 Assume `items` is now an array of objects `{id, name}`. Add a reliable `key` and render the `name`.
 
-**Expected fix:**
-```jsx
-<ul>{items.map(item => <li key={item.id}>{item.name}</li>)}</ul>
-```
 
-**Constraints:** `key` must be unique and stable across reorders.
+**Constraints:**
+`key` must be unique and stable across reorders.
 
-**Prelims topic:** list keys, component identity.
+
+**Prelims topic:**
+list keys, component identity.
 
 ---
 
@@ -401,18 +437,25 @@ Assume `items` is now an array of objects `{id, name}`. Add a reliable `key` and
 
 **Category:** React.js — **Difficulty:** Hard — **Type:** Build
 
-**Problem:** Build a 3-step form wizard:
+**Problem:**
+Build a 3-step form wizard:
 - Step 1: ask for `name`.
 - Step 2: ask for `course`.
 - Step 3: show a summary with both values and a "Submit" button.
 
 Include "Next" and "Back" buttons. Data must persist when moving between steps.
 
-**Example:** On step 2, clicking Back returns to step 1 with the name still filled.
 
-**Constraints:** Use one state object to hold all step data.
+**Example:**
+On step 2, clicking Back returns to step 1 with the name still filled.
 
-**Prelims topic:** multi-step state, conditional rendering.
+
+**Constraints:**
+Use one state object to hold all step data.
+
+
+**Prelims topic:**
+multi-step state, conditional rendering.
 
 ---
 
@@ -420,7 +463,8 @@ Include "Next" and "Back" buttons. Data must persist when moving between steps.
 
 **Category:** React.js — **Difficulty:** Hard — **Type:** Debug
 
-**Problem:** The UI does not update when the theme is toggled.
+**Problem:**
+The UI does not update when the theme is toggled.
 ```jsx
 const [user, setUser] = useState({ name: 'Ana', prefs: { theme: 'light' } });
 const toggle = () => {
@@ -430,14 +474,13 @@ const toggle = () => {
 ```
 Fix the toggle so it updates the nested `theme` property immutably.
 
-**Expected fix:**
-```js
-setUser({ ...user, prefs: { ...user.prefs, theme: 'dark' } });
-```
 
-**Constraints:** Do not mutate the existing `user` object or its `prefs` object.
+**Constraints:**
+Do not mutate the existing `user` object or its `prefs` object.
 
-**Prelims topic:** nested state, immutability, object spread.
+
+**Prelims topic:**
+nested state, immutability, object spread.
 
 ---
 
@@ -445,7 +488,9 @@ setUser({ ...user, prefs: { ...user.prefs, theme: 'dark' } });
 
 **Category:** React.js — **Difficulty:** Hard — **Type:** Build
 
-**Problem:** Create a reusable `Card` component that accepts `title`, `tech`, and `children` props. Render a white card with padding, rounded corners, and a shadow using Tailwind classes. Use `children` to render the card body. Use it in `App` to display two different project cards.
+**Problem:**
+Create a reusable `Card` component that accepts `title`, `tech`, and `children` props. Render a white card with padding, rounded corners, and a shadow using Tailwind classes. Use `children` to render the card body. Use it in `App` to display two different project cards.
+
 
 **Example:**
 ```jsx
@@ -454,11 +499,14 @@ setUser({ ...user, prefs: { ...user.prefs, theme: 'dark' } });
 </Card>
 ```
 
+
 **Constraints:**
 - Use `children`.
 - Use `className` with Tailwind utilities such as `p-6 bg-white rounded-lg shadow`.
 
-**Prelims topic:** components, composition, Tailwind in React.
+
+**Prelims topic:**
+components, composition, Tailwind in React.
 
 ---
 
@@ -470,7 +518,8 @@ setUser({ ...user, prefs: { ...user.prefs, theme: 'dark' } });
 
 **Category:** CSS & Tailwind — **Difficulty:** Easy — **Type:** Debug
 
-**Problem:** The external stylesheet `styles.css` is not being applied because of this tag:
+**Problem:**
+The external stylesheet `styles.css` is not being applied because of this tag:
 ```html
 <head>
   <style>styles.css</style>
@@ -478,14 +527,13 @@ setUser({ ...user, prefs: { ...user.prefs, theme: 'dark' } });
 ```
 Fix it so the stylesheet loads correctly.
 
-**Expected fix:**
-```html
-<link rel="stylesheet" href="styles.css">
-```
 
-**Constraints:** Use a `<link>` tag, not a `<style>` tag, for external CSS.
+**Constraints:**
+Use a `<link>` tag, not a `<style>` tag, for external CSS.
 
-**Prelims topic:** attaching external CSS.
+
+**Prelims topic:**
+attaching external CSS.
 
 ---
 
@@ -493,13 +541,15 @@ Fix it so the stylesheet loads correctly.
 
 **Category:** CSS & Tailwind — **Difficulty:** Easy — **Type:** Build
 
-**Problem:** Write a CSS rule for `body` that sets:
+**Problem:**
+Write a CSS rule for `body` that sets:
 - `font-family` with fallbacks `'Calibri', Arial, sans-serif`
 - `font-size: 16px`
 - `line-height: 1.5`
 - `color: #2B2D42`
 
 Also write a `.muted` class that uses `#676C8A`.
+
 
 **Example:**
 ```css
@@ -512,9 +562,13 @@ body {
 .muted { color: #676C8A; }
 ```
 
-**Constraints:** Include font fallbacks.
 
-**Prelims topic:** text styling, color, units.
+**Constraints:**
+Include font fallbacks.
+
+
+**Prelims topic:**
+text styling, color, units.
 
 ---
 
@@ -522,7 +576,8 @@ body {
 
 **Category:** CSS & Tailwind — **Difficulty:** Easy — **Type:** Build
 
-**Problem:** Convert this CSS into a single Tailwind `className` string. Do not write custom CSS.
+**Problem:**
+Convert this CSS into a single Tailwind `className` string. Do not write custom CSS.
 ```css
 .card {
   padding: 16px;
@@ -532,14 +587,19 @@ body {
 }
 ```
 
+
 **Example:**
 ```jsx
 className="p-4 bg-white rounded-lg shadow"
 ```
 
-**Constraints:** Use only Tailwind utility classes.
 
-**Prelims topic:** Tailwind utility-first styling, spacing scale.
+**Constraints:**
+Use only Tailwind utility classes.
+
+
+**Prelims topic:**
+Tailwind utility-first styling, spacing scale.
 
 ---
 
@@ -558,11 +618,13 @@ className="p-4 bg-white rounded-lg shadow"
 ```
 What color will the heading be, and why? Then simplify the markup and CSS so the title is navy without using `!important` or an `id`.
 
-**Expected answer:** The heading is red because the `id` selector has the highest specificity. Simplified: `<h1 class="title">Hello</h1>` with `.title { color: navy; }`.
 
-**Constraints:** Do not use `!important`.
+**Constraints:**
+Do not use `!important`.
 
-**Prelims topic:** specificity, selector types.
+
+**Prelims topic:**
+specificity, selector types.
 
 ---
 
@@ -570,7 +632,9 @@ What color will the heading be, and why? Then simplify the markup and CSS so the
 
 **Category:** CSS & Tailwind — **Difficulty:** Easy — **Type:** Build
 
-**Problem:** Write a `.hero` CSS class that makes its content perfectly centered both horizontally and vertically and takes the full viewport height.
+**Problem:**
+Write a `.hero` CSS class that makes its content perfectly centered both horizontally and vertically and takes the full viewport height.
+
 
 **Example:**
 ```css
@@ -582,9 +646,13 @@ What color will the heading be, and why? Then simplify the markup and CSS so the
 }
 ```
 
-**Constraints:** Use flexbox, not absolute positioning.
 
-**Prelims topic:** flexbox, `justify-content`, `align-items`, viewport units.
+**Constraints:**
+Use flexbox, not absolute positioning.
+
+
+**Prelims topic:**
+flexbox, `justify-content`, `align-items`, viewport units.
 
 ---
 
@@ -602,16 +670,13 @@ What color will the heading be, and why? Then simplify the markup and CSS so the
 ```
 The rendered box is wider than 300px. Add one global rule so that `width: 300px` means the whole box including padding and border.
 
-**Expected fix:**
-```css
-* {
-  box-sizing: border-box;
-}
-```
 
-**Constraints:** The rule should apply to all elements.
+**Constraints:**
+The rule should apply to all elements.
 
-**Prelims topic:** box model, `box-sizing`.
+
+**Prelims topic:**
+box model, `box-sizing`.
 
 ---
 
@@ -621,7 +686,9 @@ The rendered box is wider than 300px. Add one global rule so that `width: 300px`
 
 **Category:** CSS & Tailwind — **Difficulty:** Medium — **Type:** Build
 
-**Problem:** Build a responsive navigation bar with plain CSS. On mobile, the logo and links stack vertically. On desktop (`min-width: 768px`), they sit in a row with the logo on the left and the links on the right.
+**Problem:**
+Build a responsive navigation bar with plain CSS. On mobile, the logo and links stack vertically. On desktop (`min-width: 768px`), they sit in a row with the logo on the left and the links on the right.
+
 
 **Example:**
 ```css
@@ -639,11 +706,14 @@ The rendered box is wider than 300px. Add one global rule so that `width: 300px`
 }
 ```
 
+
 **Constraints:**
 - Mobile-first: write base styles for small screens, then add a media query.
 - Use flexbox.
 
-**Prelims topic:** flexbox, media queries, responsive design.
+
+**Prelims topic:**
+flexbox, media queries, responsive design.
 
 ---
 
@@ -659,14 +729,13 @@ function Card() {
 ```
 The Tailwind classes are not applied and a warning appears. Also, the rounded corners should be `rounded-lg` (8px). Fix both issues.
 
-**Expected fix:**
-```jsx
-<div className="p-4 bg-white rounded-lg">Card</div>
-```
 
-**Constraints:** Use `className` in JSX. Use the correct Tailwind radius scale.
+**Constraints:**
+Use `className` in JSX. Use the correct Tailwind radius scale.
 
-**Prelims topic:** Tailwind in React, `className`.
+
+**Prelims topic:**
+Tailwind in React, `className`.
 
 ---
 
@@ -674,20 +743,26 @@ The Tailwind classes are not applied and a warning appears. Also, the rounded co
 
 **Category:** CSS & Tailwind — **Difficulty:** Medium — **Type:** Build
 
-**Problem:** Write a single Tailwind `className` for a card grid that has:
+**Problem:**
+Write a single Tailwind `className` for a card grid that has:
 - 1 column on mobile
 - 2 columns from `md:` (768px) up
 - 3 columns from `lg:` (1024px) up
 - a 24px gap
+
 
 **Example:**
 ```jsx
 className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
 ```
 
-**Constraints:** No custom CSS. Use Tailwind responsive prefixes.
 
-**Prelims topic:** Tailwind grid, responsive breakpoints.
+**Constraints:**
+No custom CSS. Use Tailwind responsive prefixes.
+
+
+**Prelims topic:**
+Tailwind grid, responsive breakpoints.
 
 ---
 
@@ -703,14 +778,13 @@ className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
 ```
 The site does not respond to media queries on a phone. Add the missing viewport meta tag.
 
-**Expected fix:**
-```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-```
 
-**Constraints:** Must be placed inside `<head>`.
+**Constraints:**
+Must be placed inside `<head>`.
 
-**Prelims topic:** viewport meta, responsive design.
+
+**Prelims topic:**
+viewport meta, responsive design.
 
 ---
 
@@ -718,7 +792,9 @@ The site does not respond to media queries on a phone. Add the missing viewport 
 
 **Category:** CSS & Tailwind — **Difficulty:** Medium — **Type:** Build
 
-**Problem:** Define `--brand` and `--accent` colors in `:root`. Write `.button` that uses `--brand` for the background and `.button:hover` that uses `--accent`.
+**Problem:**
+Define `--brand` and `--accent` colors in `:root`. Write `.button` that uses `--brand` for the background and `.button:hover` that uses `--accent`.
+
 
 **Example:**
 ```css
@@ -735,9 +811,13 @@ The site does not respond to media queries on a phone. Add the missing viewport 
 }
 ```
 
-**Constraints:** Use `var()` to read the variables.
 
-**Prelims topic:** CSS custom properties, hover states.
+**Constraints:**
+Use `var()` to read the variables.
+
+
+**Prelims topic:**
+CSS custom properties, hover states.
 
 ---
 
@@ -745,11 +825,13 @@ The site does not respond to media queries on a phone. Add the missing viewport 
 
 **Category:** CSS & Tailwind — **Difficulty:** Medium — **Type:** Build
 
-**Problem:** Style a form with Tailwind. Each input should:
+**Problem:**
+Style a form with Tailwind. Each input should:
 - have a visible focus ring
 - have a label
 - show grey helper text
 The submit button should change background on hover.
+
 
 **Example:**
 ```jsx
@@ -757,11 +839,14 @@ The submit button should change background on hover.
 <button className="px-4 py-2 bg-navy text-white hover:bg-orange">Submit</button>
 ```
 
+
 **Constraints:**
 - Use `focus:` classes.
 - Ensure keyboard focus is visible.
 
-**Prelims topic:** Tailwind forms, hover/focus states, accessibility.
+
+**Prelims topic:**
+Tailwind forms, hover/focus states, accessibility.
 
 ---
 
@@ -771,7 +856,8 @@ The submit button should change background on hover.
 
 **Category:** CSS & Tailwind — **Difficulty:** Hard — **Type:** Build
 
-**Problem:** Build a complete landing page using **only** Tailwind utility classes. Include:
+**Problem:**
+Build a complete landing page using **only** Tailwind utility classes. Include:
 1. A `<nav>` with a logo on the left and links on the right.
 2. A centered `<section>` hero with a heading, subtitle, and button.
 3. A card grid of three project cards.
@@ -784,9 +870,13 @@ Make it responsive: the card grid should be 1 column on mobile and 3 columns on 
 - Hero: `h-screen flex flex-col justify-center items-center text-center`
 - Cards: `grid grid-cols-1 md:grid-cols-3 gap-6`
 
-**Constraints:** No custom CSS in a `.css` file.
 
-**Prelims topic:** Tailwind in practice, responsive layout, flex/grid.
+**Constraints:**
+No custom CSS in a `.css` file.
+
+
+**Prelims topic:**
+Tailwind in practice, responsive layout, flex/grid.
 
 ---
 
@@ -794,7 +884,8 @@ Make it responsive: the card grid should be 1 column on mobile and 3 columns on 
 
 **Category:** CSS & Tailwind — **Difficulty:** Hard — **Type:** Debug
 
-**Problem:** An HTML page loads Bootstrap CSS and then Tailwind CSS. A button has both classes:
+**Problem:**
+An HTML page loads Bootstrap CSS and then Tailwind CSS. A button has both classes:
 ```html
 <button class="btn btn-primary px-4 py-2 bg-blue-500 text-white rounded">
   Save
@@ -802,16 +893,13 @@ Make it responsive: the card grid should be 1 column on mobile and 3 columns on 
 ```
 The button looks broken because Bootstrap and Tailwind fight. Remove the Bootstrap classes and rewrite the button using only Tailwind utilities.
 
-**Expected fix:**
-```html
-<button class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
-  Save
-</button>
-```
 
-**Constraints:** No Bootstrap classes. Use Tailwind utilities for all styling.
+**Constraints:**
+No Bootstrap classes. Use Tailwind utilities for all styling.
 
-**Prelims topic:** Tailwind utility-first, avoiding framework conflicts.
+
+**Prelims topic:**
+Tailwind utility-first, avoiding framework conflicts.
 
 ---
 
@@ -819,7 +907,9 @@ The button looks broken because Bootstrap and Tailwind fight. Remove the Bootstr
 
 **Category:** CSS & Tailwind — **Difficulty:** Hard — **Type:** Build
 
-**Problem:** Build a dashboard layout using CSS Grid. On desktop, show a 250px sidebar on the left and a main content area on the right. On mobile, hide the sidebar and make the main area full width.
+**Problem:**
+Build a dashboard layout using CSS Grid. On desktop, show a 250px sidebar on the left and a main content area on the right. On mobile, hide the sidebar and make the main area full width.
+
 
 **Example:**
 ```css
@@ -834,12 +924,15 @@ The button looks broken because Bootstrap and Tailwind fight. Remove the Bootstr
 }
 ```
 
+
 **Constraints:**
 - Use `grid-template-columns`.
 - Use a media query.
 - Do not use a framework.
 
-**Prelims topic:** CSS Grid, responsive design, layout.
+
+**Prelims topic:**
+CSS Grid, responsive design, layout.
 
 ---
 
@@ -847,19 +940,17 @@ The button looks broken because Bootstrap and Tailwind fight. Remove the Bootstr
 
 **Category:** CSS & Tailwind — **Difficulty:** Hard — **Type:** Debug
 
-**Problem:** A stylesheet is full of selectors like `#header #nav a` and `#main #nav a` and uses `!important` for colors. Link colors are inconsistent and hard to override. Refactor the nav to use simple class selectors and remove `!important`.
+**Problem:**
+A stylesheet is full of selectors like `#header #nav a` and `#main #nav a` and uses `!important` for colors. Link colors are inconsistent and hard to override. Refactor the nav to use simple class selectors and remove `!important`.
 
-**Expected approach:**
-```css
-.nav-link { color: navy; }
-.nav-link:hover { color: orange; }
-```
 
 **Constraints:**
 - No `!important`.
 - No `id` selectors in the nav styles.
 
-**Prelims topic:** specificity, selector simplification.
+
+**Prelims topic:**
+specificity, selector simplification.
 
 ---
 
@@ -867,7 +958,8 @@ The button looks broken because Bootstrap and Tailwind fight. Remove the Bootstr
 
 **Category:** CSS & Tailwind — **Difficulty:** Hard — **Type:** Build
 
-**Problem:** You are given this CSS for a card, button, and grid:
+**Problem:**
+You are given this CSS for a card, button, and grid:
 ```css
 .card { padding: 24px; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
 .btn { padding: 8px 16px; background: navy; color: white; border-radius: 8px; }
@@ -880,9 +972,13 @@ Convert it to Tailwind utility classes in JSX. For each original CSS rule, write
 - `.btn` → `px-4 py-2 bg-navy text-white rounded-lg`
 - `.grid` → `grid grid-cols-3 gap-6`
 
-**Constraints:** No custom CSS classes. Use only Tailwind utilities.
 
-**Prelims topic:** CSS to Tailwind mapping, utility-first.
+**Constraints:**
+No custom CSS classes. Use only Tailwind utilities.
+
+
+**Prelims topic:**
+CSS to Tailwind mapping, utility-first.
 
 ---
 
@@ -894,7 +990,9 @@ Convert it to Tailwind utility classes in JSX. For each original CSS rule, write
 
 **Category:** Python & FastAPI — **Difficulty:** Easy — **Type:** Build
 
-**Problem:** Create a `main.py` file with a FastAPI app. Add a `GET /` route that returns the JSON object `{"message": "Hello from the server"}`.
+**Problem:**
+Create a `main.py` file with a FastAPI app. Add a `GET /` route that returns the JSON object `{"message": "Hello from the server"}`.
+
 
 **Example:**
 When you visit `http://127.0.0.1:8000/`, the browser shows:
@@ -902,11 +1000,14 @@ When you visit `http://127.0.0.1:8000/`, the browser shows:
 { "message": "Hello from the server" }
 ```
 
+
 **Constraints:**
 - Use `FastAPI()`.
 - Use the `@app.get("/")` decorator.
 
-**Prelims topic:** FastAPI first app, route decorator.
+
+**Prelims topic:**
+FastAPI first app, route decorator.
 
 ---
 
@@ -923,17 +1024,13 @@ return "Hello, stranger"
 ```
 This function raises an `IndentationError`. Fix the indentation.
 
-**Expected fix:**
-```python
-def greet(name):
-    if name == "Ana":
-        return f"Hello, {name}"
-    return "Hello, stranger"
-```
 
-**Constraints:** Use 4 spaces consistently.
+**Constraints:**
+Use 4 spaces consistently.
 
-**Prelims topic:** Python syntax, indentation.
+
+**Prelims topic:**
+Python syntax, indentation.
 
 ---
 
@@ -941,7 +1038,9 @@ def greet(name):
 
 **Category:** Python & FastAPI — **Difficulty:** Easy — **Type:** Build
 
-**Problem:** Write a function `describe(student)` that takes a dict `{"name": "Ana", "year": 3}` and returns the f-string `"Ana is in year 3"`. Also write a function `total(prices)` that returns the sum of a list of numbers.
+**Problem:**
+Write a function `describe(student)` that takes a dict `{"name": "Ana", "year": 3}` and returns the f-string `"Ana is in year 3"`. Also write a function `total(prices)` that returns the sum of a list of numbers.
+
 
 **Example:**
 ```python
@@ -949,11 +1048,14 @@ describe({"name": "Ana", "year": 3})  # "Ana is in year 3"
 total([90, 75, 88])                   # 253
 ```
 
+
 **Constraints:**
 - Use f-strings.
 - Use the built-in `sum()`.
 
-**Prelims topic:** Python dict/list, f-strings, functions.
+
+**Prelims topic:**
+Python dict/list, f-strings, functions.
 
 ---
 
@@ -961,7 +1063,9 @@ total([90, 75, 88])                   # 253
 
 **Category:** Python & FastAPI — **Difficulty:** Easy — **Type:** Build
 
-**Problem:** Create a FastAPI `GET /projects` route that returns a list of exactly two project dictionaries. Each project must have `id`, `title`, and `tech`.
+**Problem:**
+Create a FastAPI `GET /projects` route that returns a list of exactly two project dictionaries. Each project must have `id`, `title`, and `tech`.
+
 
 **Example:**
 ```json
@@ -971,11 +1075,14 @@ total([90, 75, 88])                   # 253
 ]
 ```
 
+
 **Constraints:**
 - Use a Python list of dicts.
 - Use a plural noun for the route path.
 
-**Prelims topic:** FastAPI routes, GET, JSON response.
+
+**Prelims topic:**
+FastAPI routes, GET, JSON response.
 
 ---
 
@@ -983,10 +1090,12 @@ total([90, 75, 88])                   # 253
 
 **Category:** Python & FastAPI — **Difficulty:** Easy — **Type:** Build
 
-**Problem:** Add a `GET /projects/{project_id}` route. The path parameter must be typed as `int`. The route returns:
+**Problem:**
+Add a `GET /projects/{project_id}` route. The path parameter must be typed as `int`. The route returns:
 ```json
 { "id": project_id, "title": "Weather App" }
 ```
+
 
 **Example:**
 A request to `GET /projects/5` returns:
@@ -994,9 +1103,13 @@ A request to `GET /projects/5` returns:
 { "id": 5, "title": "Weather App" }
 ```
 
-**Constraints:** `project_id` must have type hint `int`.
 
-**Prelims topic:** path parameters, type hints.
+**Constraints:**
+`project_id` must have type hint `int`.
+
+
+**Prelims topic:**
+path parameters, type hints.
 
 ---
 
@@ -1015,14 +1128,13 @@ def create_project(project: Project):
 ```
 A successful create should return HTTP 201. Fix the route decorator.
 
-**Expected fix:**
-```python
-@app.post("/projects", status_code=201)
-```
 
-**Constraints:** Do not return `200` for a creation endpoint.
+**Constraints:**
+Do not return `200` for a creation endpoint.
 
-**Prelims topic:** HTTP status codes, POST.
+
+**Prelims topic:**
+HTTP status codes, POST.
 
 ---
 
@@ -1030,10 +1142,12 @@ A successful create should return HTTP 201. Fix the route decorator.
 
 **Category:** Python & FastAPI — **Difficulty:** Medium — **Type:** Build
 
-**Problem:** Define a Pydantic model `Project` with `title: str`, `tech: str`, and an optional `stars: int = 0`. Create a `POST /projects` route that accepts a `Project` body and returns:
+**Problem:**
+Define a Pydantic model `Project` with `title: str`, `tech: str`, and an optional `stars: int = 0`. Create a `POST /projects` route that accepts a `Project` body and returns:
 ```json
 { "created": project.title, "tech": project.tech, "stars": project.stars }
 ```
+
 
 **Example:**
 `POST /projects` with body `{"title":"X","tech":"Y"}` returns:
@@ -1041,11 +1155,14 @@ A successful create should return HTTP 201. Fix the route decorator.
 { "created": "X", "tech": "Y", "stars": 0 }
 ```
 
+
 **Constraints:**
 - Inherit from `BaseModel`.
 - `stars` must have a default value.
 
-**Prelims topic:** Pydantic, request body, POST.
+
+**Prelims topic:**
+Pydantic, request body, POST.
 
 ---
 
@@ -1053,18 +1170,23 @@ A successful create should return HTTP 201. Fix the route decorator.
 
 **Category:** Python & FastAPI — **Difficulty:** Medium — **Type:** Build
 
-**Problem:** Add a `GET /projects` route with query parameters `tech: str = "all"` and `limit: int = 10`. It should return projects filtered by `tech` (case-insensitive), limited to `limit` results.
+**Problem:**
+Add a `GET /projects` route with query parameters `tech: str = "all"` and `limit: int = 10`. It should return projects filtered by `tech` (case-insensitive), limited to `limit` results.
+
 
 **Example:**
 Given projects `Weather App (React)`, `Inventory (FastAPI)`, `Portfolio (React)`:
 - `GET /projects?tech=react&limit=2` returns the first 2 React projects.
 - `GET /projects` returns all projects.
 
+
 **Constraints:**
 - Query params must have defaults.
 - Filtering must be case-insensitive.
 
-**Prelims topic:** query parameters, defaults, filtering.
+
+**Prelims topic:**
+query parameters, defaults, filtering.
 
 ---
 
@@ -1082,16 +1204,13 @@ def get_project(project_id: int):
 ```
 A missing project should return HTTP 404, not a 200 response with an error body. Fix it.
 
-**Expected fix:**
-```python
-from fastapi import HTTPException
 
-raise HTTPException(status_code=404, detail="Project not found")
-```
+**Constraints:**
+Use `HTTPException`.
 
-**Constraints:** Use `HTTPException`.
 
-**Prelims topic:** HTTP status codes, error handling.
+**Prelims topic:**
+HTTP status codes, error handling.
 
 ---
 
@@ -1099,7 +1218,8 @@ raise HTTPException(status_code=404, detail="Project not found")
 
 **Category:** Python & FastAPI — **Difficulty:** Medium — **Type:** Build
 
-**Problem:** Build a full in-memory CRUD API for `projects`:
+**Problem:**
+Build a full in-memory CRUD API for `projects`:
 - `GET /projects` — list all
 - `GET /projects/{project_id}` — get one or 404
 - `POST /projects` — create with status 201
@@ -1107,14 +1227,18 @@ raise HTTPException(status_code=404, detail="Project not found")
 
 Use a Pydantic model for creation. Store data in a global Python list.
 
+
 **Example:**
 After `POST /projects {"title":"X","tech":"Y"}`, `GET /projects` includes the new item. After `DELETE /projects/1`, it is gone.
+
 
 **Constraints:**
 - Use proper status codes (`201`, `404`).
 - IDs should be unique and auto-incrementing.
 
-**Prelims topic:** CRUD, REST, FastAPI, HTTP methods.
+
+**Prelims topic:**
+CRUD, REST, FastAPI, HTTP methods.
 
 ---
 
@@ -1124,11 +1248,13 @@ After `POST /projects {"title":"X","tech":"Y"}`, `GET /projects` includes the ne
 
 **Category:** Python & FastAPI — **Difficulty:** Hard — **Type:** Build
 
-**Problem:** Define two Pydantic models:
+**Problem:**
+Define two Pydantic models:
 - `Skill` with `name: str` and `level: int` (must be ≥ 1)
 - `Project` with `title: str`, `tech: str`, and `skills: list[Skill]`
 
 Create a `POST /projects` route that validates the nested body and returns the project as JSON.
+
 
 **Example:**
 ```json
@@ -1142,11 +1268,14 @@ POST /projects
 }
 ```
 
+
 **Constraints:**
 - Use nested `BaseModel`.
 - Validate `level` is a positive integer.
 
-**Prelims topic:** Pydantic, nested models, validation.
+
+**Prelims topic:**
+Pydantic, nested models, validation.
 
 ---
 
@@ -1164,11 +1293,13 @@ A request to `GET /projects/abc` currently causes a 500 server error. FastAPI sh
 
 What status code and body should FastAPI return, and why? Explain the fix (no code change is necessary if the route is written correctly).
 
-**Expected answer:** FastAPI returns `422 Unprocessable Entity` with a validation error because `project_id` is typed as `int`. The 500 error implies something else is wrong (e.g., manual conversion before the route). Remove any manual string-to-int parsing and let FastAPI validate the parameter.
 
-**Constraints:** Let FastAPI's type hints do the validation.
+**Constraints:**
+Let FastAPI's type hints do the validation.
 
-**Prelims topic:** type hints, validation, status 422.
+
+**Prelims topic:**
+type hints, validation, status 422.
 
 ---
 
@@ -1176,23 +1307,28 @@ What status code and body should FastAPI return, and why? Explain the fix (no co
 
 **Category:** Python & FastAPI — **Difficulty:** Hard — **Type:** Build
 
-**Problem:** Build a FastAPI app with these routes:
+**Problem:**
+Build a FastAPI app with these routes:
 - `GET /` — returns a welcome message
 - `GET /projects` — returns a list of two project dicts
 - `GET /about` — returns your name and course
 
 Run the app and test all three routes from the automatic `/docs` page.
 
+
 **Example:**
 - `GET /` → `{"message":"Projects API"}`
 - `GET /projects` → `[{...}, {...}]`
 - `GET /about` → `{"name":"Ana","course":"BSCS"}`
 
+
 **Constraints:**
 - Use noun paths, not verbs (e.g., `/projects`, not `/getProjects`).
 - Test through `http://127.0.0.1:8000/docs`.
 
-**Prelims topic:** FastAPI routes, interactive docs, REST naming.
+
+**Prelims topic:**
+FastAPI routes, interactive docs, REST naming.
 
 ---
 
@@ -1200,7 +1336,9 @@ Run the app and test all three routes from the automatic `/docs` page.
 
 **Category:** Python & FastAPI — **Difficulty:** Hard — **Type:** Build
 
-**Problem:** Write a Python function `group_by_tech(projects)` that takes a list of dicts with `title` and `tech` and returns a dict mapping each `tech` to a sorted list of titles.
+**Problem:**
+Write a Python function `group_by_tech(projects)` that takes a list of dicts with `title` and `tech` and returns a dict mapping each `tech` to a sorted list of titles.
+
 
 **Example:**
 ```python
@@ -1212,11 +1350,14 @@ group_by_tech([
 # returns { "React": ["Portfolio", "Weather"], "FastAPI": ["Inventory"] }
 ```
 
+
 **Constraints:**
 - Sort each tech's list alphabetically.
 - Return a plain Python dict.
 
-**Prelims topic:** Python dict/list manipulation, grouping.
+
+**Prelims topic:**
+Python dict/list manipulation, grouping.
 
 ---
 
@@ -1245,13 +1386,13 @@ There are two bugs:
 
 Fix both.
 
-**Expected fix:**
-- Use `len(projects) + 1` (or a running counter) for the new `id`.
-- Raise `HTTPException(404, ...)` in `DELETE` if no project matches.
 
-**Constraints:** IDs must be unique. DELETE must return 404 on missing.
+**Constraints:**
+IDs must be unique. DELETE must return 404 on missing.
 
-**Prelims topic:** CRUD, status codes, list operations.
+
+**Prelims topic:**
+CRUD, status codes, list operations.
 
 ---
 
@@ -1259,7 +1400,8 @@ Fix both.
 
 **Category:** Python & FastAPI — **Difficulty:** Hard — **Type:** Build
 
-**Problem:** Build a complete FastAPI `projects` API with:
+**Problem:**
+Build a complete FastAPI `projects` API with:
 - Pydantic model for project creation
 - `GET /projects`, `GET /projects/{id}`, `POST /projects`, `DELETE /projects/{id}`
 - Path and query parameters
@@ -1269,13 +1411,17 @@ Fix both.
 
 Test it using `/docs`.
 
+
 **Example:**
 - `GET /health` → `{"status":"ok"}`
 - `POST /projects {"title":"X","tech":"Y"}` → 201 + new project
 - `GET /projects/999` → 404
 
+
 **Constraints:**
 - Use Pydantic, `HTTPException`, `status_code`, and type hints.
 - Data is stored in memory.
 
-**Prelims topic:** full FastAPI app, validation, status codes, docs.
+
+**Prelims topic:**
+full FastAPI app, validation, status codes, docs.

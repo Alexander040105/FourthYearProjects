@@ -1,0 +1,27 @@
+/* Problem 22: Flexbox Centering */
+/* Category: CSS & Tailwind — Difficulty: Easy — Type: Build */
+/*  */
+/* **Problem:** */
+/* Write a `.hero` CSS class that makes its content perfectly centered both horizontally and vertically and takes the full viewport height. */
+/*  */
+/*  */
+/* **Example:** */
+/* ```css */
+/* .hero { */
+/*   display: flex; */
+/*   justify-content: center; */
+/*   align-items: center; */
+/*   height: 100vh; */
+/* } */
+/* ``` */
+/*  */
+/*  */
+/* **Constraints:** */
+/* Use flexbox, not absolute positioning. */
+/*  */
+/*  */
+/* **Prelims topic:** */
+/* flexbox, `justify-content`, `align-items`, viewport units. */
+
+/* ========================== YOUR ANSWER BELOW ========================== */
+/* Write your CSS / Tailwind answer here */

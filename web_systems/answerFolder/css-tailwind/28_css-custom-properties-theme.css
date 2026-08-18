@@ -1,0 +1,32 @@
+/* Problem 28: CSS Custom Properties Theme */
+/* Category: CSS & Tailwind — Difficulty: Medium — Type: Build */
+/*  */
+/* **Problem:** */
+/* Define `--brand` and `--accent` colors in `:root`. Write `.button` that uses `--brand` for the background and `.button:hover` that uses `--accent`. */
+/*  */
+/*  */
+/* **Example:** */
+/* ```css */
+/* :root { */
+/*   --brand: #1A1B3A; */
+/*   --accent: #F08A24; */
+/* } */
+/* .button { */
+/*   background: var(--brand); */
+/*   padding: 16px; */
+/* } */
+/* .button:hover { */
+/*   background: var(--accent); */
+/* } */
+/* ``` */
+/*  */
+/*  */
+/* **Constraints:** */
+/* Use `var()` to read the variables. */
+/*  */
+/*  */
+/* **Prelims topic:** */
+/* CSS custom properties, hover states. */
+
+/* ========================== YOUR ANSWER BELOW ========================== */
+/* Write your CSS / Tailwind answer here */
