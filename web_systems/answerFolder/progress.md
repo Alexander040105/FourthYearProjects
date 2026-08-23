@@ -14,6 +14,9 @@ Tick the box when you finish each problem.
 - [ ] [4. Debug: Adjacent JSX Elements](react/04_debug-adjacent-jsx-elements.jsx)
 - [ ] [5. Dynamic Title](react/05_dynamic-title.jsx)
 - [ ] [6. Debug: onClick Called Immediately](react/06_debug-onclick-called-immediately.jsx)
+- [ ] [61. Debug: Self-Closing Tags in JSX](react/61_debug-self-closing-tags-in-jsx.jsx)
+- [ ] [62. Build: Greeting Card with Props](react/62_build-greeting-card-with-props.jsx)
+- [ ] [63. Debug: Lowercase Component Name](react/63_debug-lowercase-component-name.jsx)
 
 ### Medium
 
@@ -23,6 +26,10 @@ Tick the box when you finish each problem.
 - [ ] [10. Multi-Input Registration Form](react/10_multi-input-registration-form.jsx)
 - [ ] [11. Debug: Stale Closure with setCount](react/11_debug-stale-closure-with-setcount.jsx)
 - [ ] [12. Tab Switcher](react/12_tab-switcher.jsx)
+- [ ] [64. Debug: Missing Curly Braces in JSX](react/64_debug-missing-curly-braces-in-jsx.jsx)
+- [ ] [65. Build: Project List with Props and Keys](react/65_build-project-list-with-props-and-keys.jsx)
+- [ ] [66. Debug: Mutating Props Directly](react/66_debug-mutating-props-directly.jsx)
+- [ ] [67. Build: Controlled Name Input](react/67_build-controlled-name-input.jsx)
 
 ### Hard
 
@@ -31,6 +38,9 @@ Tick the box when you finish each problem.
 - [ ] [15. Multi-Step Wizard](react/15_multi-step-wizard.jsx)
 - [ ] [16. Debug: Nested State Spread](react/16_debug-nested-state-spread.jsx)
 - [ ] [17. Tailwind Card with Children](react/17_tailwind-card-with-children.jsx)
+- [ ] [68. Build: Toggle Contact Details](react/68_build-toggle-contact-details.jsx)
+- [ ] [69. Build: Week 2 Portfolio in React](react/69_build-week-2-portfolio-in-react.jsx)
+- [ ] [70. Debug: Index as Key in Sortable List](react/70_debug-index-as-key-in-sortable-list.jsx)
 
 ## CSS & Tailwind
 
@@ -60,6 +70,28 @@ Tick the box when you finish each problem.
 - [ ] [32. Dashboard Layout](css-tailwind/32_dashboard-layout.html)
 - [ ] [33. Debug: Specificity War](css-tailwind/33_debug-specificity-war.css)
 - [ ] [34. Convert Plain CSS to Tailwind](css-tailwind/34_convert-plain-css-to-tailwind.html)
+
+## HTML, Accessibility & Deployment
+
+
+### Easy
+
+- [ ] [51. Semantic Portfolio Skeleton](html-accessibility/51_semantic-portfolio-skeleton.html)
+- [ ] [52. Debug: Div Soup to Semantic](html-accessibility/52_debug-div-soup-to-semantic.html)
+- [ ] [53. Debug: Broken Heading Hierarchy](html-accessibility/53_debug-broken-heading-hierarchy.html)
+- [ ] [54. Build: Article with Figure](html-accessibility/54_build-article-with-figure.html)
+- [ ] [55. Debug: Missing Lang and Viewport](html-accessibility/55_debug-missing-lang-and-viewport.html)
+
+### Medium
+
+- [ ] [56. Build: Accessible Contact Form](html-accessibility/56_build-accessible-contact-form.html)
+- [ ] [57. Debug: Bad Alt Text and Missing Labels](html-accessibility/57_debug-bad-alt-text-and-missing-labels.html)
+- [ ] [58. Build: Accessible Landing Page](html-accessibility/58_build-accessible-landing-page.html)
+
+### Hard
+
+- [ ] [59. Deployment: Push-to-Publish Pipeline](html-accessibility/59_deployment-push-to-publish-pipeline.md)
+- [ ] [60. Debug: Broken Images on Live Site](html-accessibility/60_debug-broken-images-on-live-site.md)
 
 ## Python & FastAPI
 

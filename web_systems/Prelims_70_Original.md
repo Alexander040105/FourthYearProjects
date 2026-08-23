@@ -1,4 +1,4 @@
-# 50 Original Prelims Problems (Roulette Edition)
+# 70 Original Prelims Problems (Roulette Edition)
 
 A set of **original** LeetCode-style problems, debug exercises, and build tasks drawn from the prelims reviewer topics. Spin the wheel, pick a number, and solve it.
 
@@ -60,6 +60,26 @@ A set of **original** LeetCode-style problems, debug exercises, and build tasks 
 48. Group and Sort Projects — Python & FastAPI — Hard — Build
 49. Debug: Broken DELETE and POST ID — Python & FastAPI — Hard — Debug
 50. Full FastAPI App with Validation and Errors — Python & FastAPI — Hard — Build
+51. Semantic Portfolio Skeleton — HTML, Accessibility & Deployment — Easy — Build
+52. Debug: Div Soup to Semantic — HTML, Accessibility & Deployment — Easy — Debug
+53. Debug: Broken Heading Hierarchy — HTML, Accessibility & Deployment — Easy — Debug
+54. Build: Article with Figure — HTML, Accessibility & Deployment — Easy — Build
+55. Debug: Missing Lang and Viewport — HTML, Accessibility & Deployment — Easy — Debug
+56. Build: Accessible Contact Form — HTML, Accessibility & Deployment — Medium — Build
+57. Debug: Bad Alt Text and Missing Labels — HTML, Accessibility & Deployment — Medium — Debug
+58. Build: Accessible Landing Page — HTML, Accessibility & Deployment — Medium — Build
+59. Deployment: Push-to-Publish Pipeline — HTML, Accessibility & Deployment — Hard — Build
+60. Debug: Broken Images on Live Site — HTML, Accessibility & Deployment — Hard — Debug
+61. Debug: Self-Closing Tags in JSX — React.js — Easy — Debug
+62. Build: Greeting Card with Props — React.js — Easy — Build
+63. Debug: Lowercase Component Name — React.js — Easy — Debug
+64. Debug: Missing Curly Braces in JSX — React.js — Medium — Debug
+65. Build: Project List with Props and Keys — React.js — Medium — Build
+66. Debug: Mutating Props Directly — React.js — Medium — Debug
+67. Build: Controlled Name Input — React.js — Medium — Build
+68. Build: Toggle Contact Details — React.js — Hard — Build
+69. Build: Week 2 Portfolio in React — React.js — Hard — Build
+70. Debug: Index as Key in Sortable List — React.js — Hard — Debug
 
 ---
 
@@ -1425,3 +1445,587 @@ Test it using `/docs`.
 
 **Prelims topic:**
 full FastAPI app, validation, status codes, docs.
+
+---
+
+## HTML, Accessibility & Deployment
+
+### Easy
+
+#### 51. Semantic Portfolio Skeleton
+
+**Category:** HTML, Accessibility & Deployment — **Difficulty:** Easy — **Type:** Build
+
+**Problem:**
+Write a complete, valid HTML5 page skeleton for a portfolio. The page must include:
+- `<!DOCTYPE html>`, `<html lang="en">`, `<head>` with `charset="UTF-8"` and the viewport meta tag.
+- A `<title>` that is not blank.
+- A `<body>` with `<header>`, `<nav>` (containing two links), `<main>` with two `<section>` elements, and `<footer>`.
+
+
+**Example output:**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav><a href="#about">About</a> <a href="#work">Work</a></nav>
+  </header>
+  <main>
+    <section id="about">About me.</section>
+    <section id="work">My work.</section>
+  </main>
+  <footer>&copy; 2026</footer>
+</body>
+</html>
+```
+
+
+**Constraints:**
+- Do not use `<div>` where a semantic element exists.
+- There must be exactly one `<h1>` and one `<main>`.
+
+
+**Prelims topic:**
+Semantic HTML5, document structure, landmarks.
+
+---
+
+#### 52. Debug: Div Soup to Semantic
+
+**Category:** HTML, Accessibility & Deployment — **Difficulty:** Easy — **Type:** Debug
+
+**Problem:**
+A teammate wrote this non-semantic markup:
+```html
+<div class="header">
+  <div class="logo">My Site</div>
+  <div class="menu"><a href="/">Home</a></div>
+</div>
+<div class="main">
+  <div class="post">...</div>
+</div>
+<div class="footer">...</div>
+```
+Rewrite it using semantic HTML5 elements.
+
+
+**Constraints:**
+- Use `<header>`, `<nav>`, `<main>`, `<article>`, `<footer>`.
+- Do not keep the class-named `<div>` for structure.
+
+
+**Prelims topic:**
+Semantic elements, div misuse.
+
+---
+
+#### 53. Debug: Broken Heading Hierarchy
+
+**Category:** HTML, Accessibility & Deployment — **Difficulty:** Easy — **Type:** Debug
+
+**Problem:**
+This heading outline is broken:
+```html
+<h1>My Portfolio</h1>
+<h4>About Me</h4>
+<h2>Projects</h2>
+<h4>Contact</h4>
+```
+Fix the hierarchy so levels are not skipped. Keep the same page structure and change the size with CSS, not the tag.
+
+
+**Constraints:**
+- One `<h1>` per page.
+- Do not skip heading levels (`h2` follows `h1`).
+
+
+**Prelims topic:**
+Heading hierarchy, document outline.
+
+---
+
+#### 54. Build: Article with Figure
+
+**Category:** HTML, Accessibility & Deployment — **Difficulty:** Easy — **Type:** Build
+
+**Problem:**
+Write a self-contained `<article>` that represents a project. It must include:
+- A heading.
+- A `<figure>` containing an `<img>` with descriptive `alt` text and a `<figcaption>`.
+
+
+**Example output:**
+```html
+<article>
+  <h2>Weather App</h2>
+  <figure>
+    <img src="weather.png" alt="Weather dashboard showing a five-day forecast for Manila">
+    <figcaption>Weather App screenshot</figcaption>
+  </figure>
+</article>
+```
+
+
+**Constraints:**
+- Use `<article>`, `<figure>`, `<img>`, and `<figcaption>`.
+- The `alt` text must describe the image's purpose, not its filename.
+
+
+**Prelims topic:**
+article, figure, figcaption, alt text.
+
+---
+
+#### 55. Debug: Missing Lang and Viewport
+
+**Category:** HTML, Accessibility & Deployment — **Difficulty:** Easy — **Type:** Debug
+
+**Problem:**
+This page head is missing two important things:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+</head>
+```
+Add the missing attributes and meta tag that help accessibility and responsiveness.
+
+
+**Constraints:**
+- Add `lang="en"` to `<html>`.
+- Add the viewport `<meta>` in the `<head>`.
+
+
+**Prelims topic:**
+lang attribute, viewport meta, responsive design, screen readers.
+
+---
+
+
+### Medium
+
+#### 56. Build: Accessible Contact Form
+
+**Category:** HTML, Accessibility & Deployment — **Difficulty:** Medium — **Type:** Build
+
+**Problem:**
+Build an accessible contact form with fields for Name, Email, and Message. The form must be usable by keyboard and screen-reader users.
+
+
+**Example output:**
+```html
+<form>
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name">
+
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email">
+
+  <label for="message">Message</label>
+  <textarea id="message" name="message"></textarea>
+
+  <p class="error">Error: email is required.</p>
+  <button type="submit">Send</button>
+</form>
+```
+
+
+**Constraints:**
+- Every input must have a `<label>` with matching `for`/`id`.
+- Do not use placeholders as the only label.
+- Error text must start with the word "Error" and not rely on colour alone.
+- The submit button must be focusable and triggerable with Enter.
+
+
+**Prelims topic:**
+Form accessibility, labels, placeholders, colour not alone, keyboard access.
+
+---
+
+#### 57. Debug: Bad Alt Text and Missing Labels
+
+**Category:** HTML, Accessibility & Deployment — **Difficulty:** Medium — **Type:** Debug
+
+**Problem:**
+This markup has three accessibility problems:
+```html
+<img src="p1.png" alt="p1.png">
+<input type="text" placeholder="Email">
+<p style="color:red">Invalid</p>
+```
+Fix all three.
+
+
+**Constraints:**
+- `alt` must describe the image's purpose.
+- Use `<label for="...">` that matches the input `id`.
+- Error message must not rely on colour alone.
+
+
+**Prelims topic:**
+Alt text, labels, error messages, colour not alone.
+
+---
+
+#### 58. Build: Accessible Landing Page
+
+**Category:** HTML, Accessibility & Deployment — **Difficulty:** Medium — **Type:** Build
+
+**Problem:**
+Build a one-page portfolio landing page that is fully accessible. It should include:
+- Semantic landmarks: `<header>`, `<nav>`, `<main>`, `<footer>`.
+- A "Skip to main content" link.
+- One `<h1>` and a logical heading hierarchy.
+- Alt text on every image.
+- Linked labels on any form controls.
+- Visible focus styles for keyboard users.
+
+
+**Example output:**
+A single HTML file with the structure above.
+
+
+**Constraints:**
+- No `<div>` where a semantic element can be used.
+- Include a `href="#main"` skip link and `<main id="main">`.
+- All form inputs must have labels.
+
+
+**Prelims topic:**
+Landmarks, skip links, heading hierarchy, alt text, labels, keyboard focus.
+
+---
+
+
+### Hard
+
+#### 59. Deployment: Push-to-Publish Pipeline
+
+**Category:** HTML, Accessibility & Deployment — **Difficulty:** Hard — **Type:** Build
+
+**Problem:**
+Explain, step by step, how a static site goes from a local folder on your laptop to a public URL. Also explain why a FastAPI back end cannot be served by a pure static host such as Netlify or Cloudflare Pages.
+
+
+**Constraints:**
+- Include `git commit`, `git push`, host connection, and automatic rebuild.
+- Distinguish between serving files and running code.
+
+
+**Prelims topic:**
+Deployment, static hosting, Git, FastAPI difference.
+
+---
+
+#### 60. Debug: Broken Images on Live Site
+
+**Category:** HTML, Accessibility & Deployment — **Difficulty:** Hard — **Type:** Debug
+
+**Problem:**
+Your site looks fine when you open it from your laptop, but images are broken on the live site. What is the most likely cause, and what is your checklist to fix and prevent it?
+
+
+**Constraints:**
+- Mention case sensitivity and repository paths.
+- Include at least three actionable checks.
+
+
+**Prelims topic:**
+Deployment, file paths, static hosting, Git.
+
+---
+
+
+---
+
+## React.js
+
+### Easy
+
+#### 61. Debug: Self-Closing Tags in JSX
+
+**Category:** React.js — **Difficulty:** Easy — **Type:** Debug
+
+**Problem:**
+This JSX fails to compile because three tags are not self-closed:
+```jsx
+function App() {
+  return (
+    <div>
+      <img src="logo.png">
+      <br>
+      <input type="text">
+    </div>
+  );
+}
+```
+Fix it.
+
+
+**Constraints:**
+- Every JSX tag must close: `<img />`, `<br />`, `<input />`.
+
+
+**Prelims topic:**
+JSX, self-closing tags.
+
+---
+
+#### 62. Build: Greeting Card with Props
+
+**Category:** React.js — **Difficulty:** Easy — **Type:** Build
+
+**Problem:**
+Write a `Card` component that receives `name` and `role` props and renders them. Then render a list of cards from an array of people.
+
+
+**Example:**
+```jsx
+const people = [
+  { id: 1, name: "Ana", role: "Student" },
+  { id: 2, name: "Ben", role: "Tutor" }
+];
+
+// Render:
+// <Card name="Ana" role="Student" />
+// <Card name="Ben" role="Tutor" />
+```
+
+
+**Constraints:**
+- Component name must start with a capital letter.
+- Use props.
+- Use `people.map(...)` and a stable `key` from the data.
+
+
+**Prelims topic:**
+Components, JSX, props, map, keys.
+
+---
+
+#### 63. Debug: Lowercase Component Name
+
+**Category:** React.js — **Difficulty:** Easy — **Type:** Debug
+
+**Problem:**
+This component does not render as a custom component:
+```jsx
+function profileCard({ name }) {
+  return <h2>{name}</h2>;
+}
+
+function App() {
+  return <profileCard name="Ana" />;
+}
+```
+Fix it.
+
+
+**Constraints:**
+- Rename the function to start with a capital letter.
+- Update the JSX tag to match.
+
+
+**Prelims topic:**
+Component naming, JSX.
+
+---
+
+
+### Medium
+
+#### 64. Debug: Missing Curly Braces in JSX
+
+**Category:** React.js — **Difficulty:** Medium — **Type:** Debug
+
+**Problem:**
+This component renders the literal word "name" instead of the variable:
+```jsx
+function Greeting() {
+  const name = "Ana";
+  return <p>Hello, name</p>;
+}
+```
+Fix it.
+
+
+**Constraints:**
+- Use curly braces `{}` for JavaScript expressions inside JSX.
+
+
+**Prelims topic:**
+JSX, curly braces, JavaScript expressions.
+
+---
+
+#### 65. Build: Project List with Props and Keys
+
+**Category:** React.js — **Difficulty:** Medium — **Type:** Build
+
+**Problem:**
+Write a `Project` component that takes `title`, `tech`, and `link` props and renders a card with a link. In `App`, map over the `projects` array and render one `Project` for each item, using a stable key.
+
+
+**Example:**
+```jsx
+const projects = [
+  { id: 1, title: "Weather App", tech: "React", link: "..." },
+  { id: 2, title: "Inventory", tech: "FastAPI", link: "..." }
+];
+
+// Renders two Project cards.
+```
+
+
+**Constraints:**
+- Use a real `id` from the data as the `key`, not the array index.
+- Pass all three props.
+- The component name is capitalised.
+
+
+**Prelims topic:**
+Components, props, map, keys, composition.
+
+---
+
+#### 66. Debug: Mutating Props Directly
+
+**Category:** React.js — **Difficulty:** Medium — **Type:** Debug
+
+**Problem:**
+This component tries to change a prop, which is not allowed:
+```jsx
+function Greeting({ name }) {
+  name = name.toUpperCase();
+  return <h1>{name}</h1>;
+}
+```
+Fix it without creating state. Use a derived value in the render.
+
+
+**Constraints:**
+- Props are read-only. Do not reassign them.
+- Compute the final value during render.
+
+
+**Prelims topic:**
+Props, read-only, derived values.
+
+---
+
+#### 67. Build: Controlled Name Input
+
+**Category:** React.js — **Difficulty:** Medium — **Type:** Build
+
+**Problem:**
+Build a `NameBox` component with `useState`. It should have an input and a paragraph that shows `Hello, {name}` as the user types.
+
+
+**Example:**
+Typing "Ana" shows:
+```jsx
+<p>Hello, Ana</p>
+```
+
+
+**Constraints:**
+- Use `useState` for the name.
+- Bind the input's `value` to state.
+- Use `onChange` with `e.target.value` to update state.
+- Pass the function, do not call it.
+
+
+**Prelims topic:**
+State, useState, events, controlled inputs.
+
+---
+
+
+### Hard
+
+#### 68. Build: Toggle Contact Details
+
+**Category:** React.js — **Difficulty:** Hard — **Type:** Build
+
+**Problem:**
+Build an `App` with a button that toggles the visibility of a contact details section. Use `useState` and conditional rendering.
+
+
+**Example:**
+- Initially, only the button "Show contact" is visible.
+- Clicking the button shows the email and changes the label to "Hide contact".
+- Clicking again hides it.
+
+
+**Constraints:**
+- Use `useState` for the toggle state.
+- `onClick` must pass the setter function, not call it (`setShow(!show)`).
+- Conditionally render the contact section.
+
+
+**Prelims topic:**
+State, events, conditional rendering.
+
+---
+
+#### 69. Build: Week 2 Portfolio in React
+
+**Category:** React.js — **Difficulty:** Hard — **Type:** Build
+
+**Problem:**
+Rebuild the Week 2 portfolio as React components. The app must include:
+- A `Header` component that shows your name.
+- A reusable `ProjectCard` component used with different props.
+- A list of projects rendered with `map` and a stable `key`.
+- A button that toggles contact details with `useState`.
+
+
+**Example:**
+A page with a header, three project cards, and a "Show contact" button that reveals an email.
+
+
+**Constraints:**
+- At least two components.
+- Use props.
+- Use `map` with a real `id` as `key`.
+- Use `useState` and an event handler.
+- Do not touch the DOM manually.
+
+
+**Prelims topic:**
+Components, props, state, events, composition, Vite app structure.
+
+---
+
+#### 70. Debug: Index as Key in Sortable List
+
+**Category:** React.js — **Difficulty:** Hard — **Type:** Debug
+
+**Problem:**
+This list uses the array index as the key. It causes subtle bugs when the list is reordered or filtered:
+```jsx
+<ul>
+  {projects.map((p, index) => (
+    <li key={index}>{p.title}</li>
+  ))}
+</ul>
+```
+Rewrite it to use a stable key and explain why the index is risky.
+
+
+**Constraints:**
+- Use `p.id` (a stable value from the data) as the key.
+- Explain the bug in a comment or short paragraph.
+
+
+**Prelims topic:**
+Keys, list rendering, reconciliation.

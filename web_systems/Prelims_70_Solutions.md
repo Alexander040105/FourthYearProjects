@@ -1,5 +1,5 @@
-# Prelims 50 Solutions
-Reference answers / expected fixes for the original problem set.
+# Prelims 70 Solutions
+Reference answers / expected fixes for the problem set.
 
 ## 1. Counter Component
 **Category:** React.js — **Difficulty:** Easy — **Type:** Build
@@ -464,3 +464,260 @@ group_by_tech([
 - `GET /health` → `{"status":"ok"}`
 - `POST /projects {"title":"X","tech":"Y"}` → 201 + new project
 - `GET /projects/999` → 404
+
+## 51. Semantic Portfolio Skeleton
+**Category:** HTML, Accessibility & Deployment — **Difficulty:** Easy — **Type:** Build
+
+**Reference Example output:**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav><a href="#about">About</a> <a href="#work">Work</a></nav>
+  </header>
+  <main>
+    <section id="about">About me.</section>
+    <section id="work">My work.</section>
+  </main>
+  <footer>&copy; 2026</footer>
+</body>
+</html>
+```
+
+## 52. Debug: Div Soup to Semantic
+**Category:** HTML, Accessibility & Deployment — **Difficulty:** Easy — **Type:** Debug
+
+**Expected fix:**
+```html
+<header>
+  <h1>My Site</h1>
+  <nav><a href="/">Home</a></nav>
+</header>
+<main>
+  <article>...</article>
+</main>
+<footer>...</footer>
+```
+
+## 53. Debug: Broken Heading Hierarchy
+**Category:** HTML, Accessibility & Deployment — **Difficulty:** Easy — **Type:** Debug
+
+**Expected fix:**
+```html
+<h1>My Portfolio</h1>
+<h2>About Me</h2>
+<h2>Projects</h2>
+<h2>Contact</h2>
+```
+
+## 54. Build: Article with Figure
+**Category:** HTML, Accessibility & Deployment — **Difficulty:** Easy — **Type:** Build
+
+**Reference Example output:**
+```html
+<article>
+  <h2>Weather App</h2>
+  <figure>
+    <img src="weather.png" alt="Weather dashboard showing a five-day forecast for Manila">
+    <figcaption>Weather App screenshot</figcaption>
+  </figure>
+</article>
+```
+
+## 55. Debug: Missing Lang and Viewport
+**Category:** HTML, Accessibility & Deployment — **Difficulty:** Easy — **Type:** Debug
+
+**Expected fix:**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+</head>
+```
+
+## 56. Build: Accessible Contact Form
+**Category:** HTML, Accessibility & Deployment — **Difficulty:** Medium — **Type:** Build
+
+**Reference Example output:**
+```html
+<form>
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name">
+
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email">
+
+  <label for="message">Message</label>
+  <textarea id="message" name="message"></textarea>
+
+  <p class="error">Error: email is required.</p>
+  <button type="submit">Send</button>
+</form>
+```
+
+## 57. Debug: Bad Alt Text and Missing Labels
+**Category:** HTML, Accessibility & Deployment — **Difficulty:** Medium — **Type:** Debug
+
+**Expected fix:**
+```html
+<img src="p1.png" alt="Inventory dashboard showing low-stock alerts">
+<label for="email">Email</label>
+<input type="text" id="email">
+<p class="error">Error: invalid email</p>
+```
+
+## 58. Build: Accessible Landing Page
+**Category:** HTML, Accessibility & Deployment — **Difficulty:** Medium — **Type:** Build
+
+**Reference Example output:**
+A single HTML file with the structure above.
+
+## 59. Deployment: Push-to-Publish Pipeline
+**Category:** HTML, Accessibility & Deployment — **Difficulty:** Hard — **Type:** Build
+
+**Expected answer:**
+1. Commit the files locally with `git commit`.
+2. Push the commit to a GitHub repository with `git push`.
+3. Connect the repository to a static host (Netlify / Cloudflare Pages) once.
+4. The host copies the files to its CDN and gives you a public URL.
+5. Every later `git push` automatically triggers a rebuild and republishes the site.
+
+A FastAPI back end cannot be served by a pure static host because the host only serves static files. FastAPI runs Python code, so it needs a host that can execute code (e.g. a server or platform-as-a-service), not just copy files to a CDN.
+
+## 60. Debug: Broken Images on Live Site
+**Category:** HTML, Accessibility & Deployment — **Difficulty:** Hard — **Type:** Debug
+
+**Expected fix:**
+The most likely cause is a path or filename case mismatch between your local machine and the deployed files. Local Windows often ignores case; static hosts and GitHub do not.
+
+Checklist:
+1. Use relative paths from the HTML file location (e.g. `images/logo.png`, not `C:/...`).
+2. Commit the image files to the repository (`git add images/`).
+3. Match filename and extension case exactly between the `<img src>` and the repository (`logo.png` vs `Logo.PNG` will fail).
+4. Test the live URL after the deploy finishes and each push.
+
+## 61. Debug: Self-Closing Tags in JSX
+**Category:** React.js — **Difficulty:** Easy — **Type:** Debug
+
+**Expected fix:**
+```jsx
+function App() {
+  return (
+    <div>
+      <img src="logo.png" />
+      <br />
+      <input type="text" />
+    </div>
+  );
+}
+```
+
+## 62. Build: Greeting Card with Props
+**Category:** React.js — **Difficulty:** Easy — **Type:** Build
+
+**Reference Example:**
+```jsx
+const people = [
+  { id: 1, name: "Ana", role: "Student" },
+  { id: 2, name: "Ben", role: "Tutor" }
+];
+
+// Render:
+// <Card name="Ana" role="Student" />
+// <Card name="Ben" role="Tutor" />
+```
+
+## 63. Debug: Lowercase Component Name
+**Category:** React.js — **Difficulty:** Easy — **Type:** Debug
+
+**Expected fix:**
+```jsx
+function ProfileCard({ name }) {
+  return <h2>{name}</h2>;
+}
+
+function App() {
+  return <ProfileCard name="Ana" />;
+}
+```
+
+## 64. Debug: Missing Curly Braces in JSX
+**Category:** React.js — **Difficulty:** Medium — **Type:** Debug
+
+**Expected fix:**
+```jsx
+function Greeting() {
+  const name = "Ana";
+  return <p>Hello, {name}</p>;
+}
+```
+
+## 65. Build: Project List with Props and Keys
+**Category:** React.js — **Difficulty:** Medium — **Type:** Build
+
+**Reference Example:**
+```jsx
+const projects = [
+  { id: 1, title: "Weather App", tech: "React", link: "..." },
+  { id: 2, title: "Inventory", tech: "FastAPI", link: "..." }
+];
+
+// Renders two Project cards.
+```
+
+## 66. Debug: Mutating Props Directly
+**Category:** React.js — **Difficulty:** Medium — **Type:** Debug
+
+**Expected fix:**
+```jsx
+function Greeting({ name }) {
+  return <h1>{name.toUpperCase()}</h1>;
+}
+```
+
+## 67. Build: Controlled Name Input
+**Category:** React.js — **Difficulty:** Medium — **Type:** Build
+
+**Reference Example:**
+Typing "Ana" shows:
+```jsx
+<p>Hello, Ana</p>
+```
+
+## 68. Build: Toggle Contact Details
+**Category:** React.js — **Difficulty:** Hard — **Type:** Build
+
+**Reference Example:**
+- Initially, only the button "Show contact" is visible.
+- Clicking the button shows the email and changes the label to "Hide contact".
+- Clicking again hides it.
+
+## 69. Build: Week 2 Portfolio in React
+**Category:** React.js — **Difficulty:** Hard — **Type:** Build
+
+**Reference Example:**
+A page with a header, three project cards, and a "Show contact" button that reveals an email.
+
+## 70. Debug: Index as Key in Sortable List
+**Category:** React.js — **Difficulty:** Hard — **Type:** Debug
+
+**Expected fix:**
+```jsx
+<ul>
+  {projects.map((p) => (
+    <li key={p.id}>{p.title}</li>
+  ))}
+</ul>
+```
+
+**Why the index is risky:** Array indexes change when items are reordered, added, or removed. React uses `key` to identify which items changed; using an unstable index can cause the wrong item to be updated, removed, or animated.
