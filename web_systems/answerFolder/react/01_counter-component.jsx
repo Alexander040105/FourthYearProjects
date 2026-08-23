@@ -23,3 +23,18 @@
 
 // ========================== YOUR ANSWER BELOW ==========================
 // Write your React / JSX answer here
+
+import React, { useState } from 'react';
+
+export function Counter() {
+    const [count, setCount] = useState(0)
+
+    return (
+        <>
+            <p>You have clicked the button {count} times</p>
+            <button onClick={() => setCount(count + 1)}>Click me</button>    
+        </>
+    )
+}
+
+export default Counter
