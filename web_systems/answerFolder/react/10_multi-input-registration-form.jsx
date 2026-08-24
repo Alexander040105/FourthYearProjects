@@ -19,3 +19,30 @@
 
 // ========================== YOUR ANSWER BELOW ==========================
 // Write your React / JSX answer here
+
+import React, { useState } from 'react';
+
+
+export default function App(){
+    const [formData, setFormData] = useState({
+        name: '',
+        email: ''
+    })
+    return (
+        <form>
+            <input 
+                type="text" 
+                placeholder="Name" 
+                value={formData.name}
+                onChange={(e) => setFormData({...formData, name: e.target.value})}
+            />
+            <input 
+                type="email" 
+                placeholder="Email" 
+                value={formData.email}
+                onChange={(e) => setFormData({...formData, email: e.target.value})}
+            />
+            <button type="submit">Submit</button>
+        </form>
+    )
+}

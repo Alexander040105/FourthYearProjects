@@ -20,3 +20,13 @@
 
 // ========================== YOUR ANSWER BELOW ==========================
 // Write your React / JSX answer here
+
+import React, { useState} from 'react';
+
+export default function App(){
+    return <>
+        <h1 className="title">Hello</h1>
+    </>
+}
+
+export default App

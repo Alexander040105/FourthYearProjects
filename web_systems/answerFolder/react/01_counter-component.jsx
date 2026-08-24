@@ -36,5 +36,3 @@ export function Counter() {
         </>
     )
 }
-
-export default Counter

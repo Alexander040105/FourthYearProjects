@@ -32,3 +32,22 @@
 
 # ========================== YOUR ANSWER BELOW ==========================
 # Write your Python / FastAPI answer here
+
+from fastapi import FastAPI, HTTPException, status
+from pydantic import BaseModel, Field
+
+app = FastAPI()
+
+class Skill(BaseModel):
+    name: str
+    level: int = Field(ge=1)
+
+class Project(BaseModel):
+    title: str
+    tech: str
+    skills: list[Skill]
+
+@app.post("/projects", status_code=status.HTTP_201_CREATED)
+def create_project(project: Project):
+    return project
+    

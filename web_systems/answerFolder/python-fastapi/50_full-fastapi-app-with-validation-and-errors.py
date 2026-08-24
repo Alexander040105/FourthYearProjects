@@ -29,3 +29,30 @@
 
 # ========================== YOUR ANSWER BELOW ==========================
 # Write your Python / FastAPI answer here
+from fastapi import FastAPI, HTTPException, status
+from pydantic import BaseModel
+
+app = FastAPI()
+
+class Project(BaseModel):
+    title: str
+    tech: str
+
+@app.get("/health")
+def health():
+    return {"status": "ok"}
+
+@app.post("/projects", status_code=status.HTTP_201_CREATED)
+def create_project(project: Project):
+    if not project.title or not project.tech:
+        raise HTTPException(status_code=400, detail="Title and tech are required")
+    else: 
+        return {"title": project.title, "tech": project.tech}
+
+@app.get("/projects/{project_id}")
+def get_project(project_id: int):
+    if project_id == 999:
+        raise HTTPException(status_code=404, detail="Project not found")
+    else:
+        return {"id": project_id, "title": "Sample Project", "tech": "FastAPI"}
+

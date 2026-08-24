@@ -20,3 +20,16 @@
 
 # ========================== YOUR ANSWER BELOW ==========================
 # Write your Python / FastAPI answer here
+from fastapi import FastAPI, status
+from pydantic import BaseModel
+
+app = FastAPI()
+
+class Project(BaseModel):
+    id = int
+    title = str
+
+@app.post("/projects", status_code=status.HTTP_201_CREATED)
+def create_project(project: Project):
+    new_project = { "id": 1, "title": project.title }
+    return new_project
