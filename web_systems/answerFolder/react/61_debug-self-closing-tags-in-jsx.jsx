@@ -28,3 +28,15 @@
 
 // ========================== YOUR ANSWER BELOW ==========================
 // Write your React / JSX answer here
+
+import React, {useState} from 'react';
+
+export default function App(){
+    return (
+    <div>
+      <img src="logo.png" />
+      <br />
+      <input type="text" />
+    </div>
+  )
+}
