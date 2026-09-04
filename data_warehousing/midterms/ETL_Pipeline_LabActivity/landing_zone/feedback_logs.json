@@ -1,0 +1,852 @@
+[
+  {
+    "log_id": "1ddf2969-2b23-4f4c-874f-207a7656cb44",
+    "customer_id": "C-1000",
+    "product_name": "widget a",
+    "feedback": "Customer feedback entry number 1",
+    "rating": 3,
+    "metadata": {
+      "channel": "web",
+      "tags": [
+        "shipping"
+      ]
+    },
+    "timestamp": 1672531200.0
+  },
+  {
+    "log_id": "067a8c63-81a8-4772-8d52-718824cddf7f",
+    "customer_id": "C-1001",
+    "product_name": "widget b",
+    "feedback": "Customer feedback entry number 2",
+    "rating": 5,
+    "metadata": {
+      "channel": "mobile",
+      "tags": [
+        "quality"
+      ]
+    },
+    "timestamp": 1672617600.0
+  },
+  {
+    "log_id": "4e3ebae7-dd10-4278-a817-9899e4672d72",
+    "customer_id": "C-1002",
+    "product_name": "widget c",
+    "feedback": "Customer feedback entry number 3",
+    "rating": 1,
+    "metadata": {
+      "channel": "in-store",
+      "tags": [
+        "price"
+      ]
+    },
+    "timestamp": 1672704000.0
+  },
+  {
+    "log_id": "2972d346-3b2b-4faa-9ad2-4c67b1643a52",
+    "customer_id": "C-1003",
+    "product_name": "gadget x",
+    "feedback": "Customer feedback entry number 4",
+    "rating": 2,
+    "metadata": {
+      "channel": "email",
+      "tags": [
+        "support"
+      ]
+    },
+    "timestamp": 1672790400.0
+  },
+  {
+    "log_id": "4a584456-05d1-4a02-9c2a-1b9062dfec2b",
+    "customer_id": "C-1004",
+    "product_name": "gadget y",
+    "feedback": "Customer feedback entry number 5",
+    "rating": 4,
+    "metadata": {
+      "channel": "phone",
+      "tags": [
+        "shipping",
+        "quality"
+      ]
+    },
+    "timestamp": 1672876800.0
+  },
+  {
+    "log_id": "0b4cb3ba-c825-4101-9f16-2ef3e026f6a4",
+    "customer_id": "C-1005",
+    "product_name": "gadget z",
+    "feedback": "Customer feedback entry number 6",
+    "rating": 4,
+    "metadata": {
+      "channel": "web",
+      "tags": [
+        "packaging"
+      ]
+    },
+    "timestamp": 1672963200.0
+  },
+  {
+    "log_id": "c20392b3-489f-40ff-90bf-e0e060ce2589",
+    "customer_id": "C-1006",
+    "product_name": "widget a",
+    "feedback": "Customer feedback entry number 7",
+    "rating": 3,
+    "metadata": {
+      "channel": "mobile",
+      "tags": [
+        "shipping"
+      ]
+    },
+    "timestamp": 1673049600.0
+  },
+  {
+    "log_id": "7b85a07e-f34d-4e5e-9c53-c7359a9eeb23",
+    "customer_id": "C-1007",
+    "product_name": "widget b",
+    "feedback": "Customer feedback entry number 8",
+    "rating": 5,
+    "metadata": {
+      "channel": "in-store",
+      "tags": [
+        "quality"
+      ]
+    },
+    "timestamp": 1673136000.0
+  },
+  {
+    "log_id": "c4a1a524-a942-41be-99b2-eec5b720087a",
+    "customer_id": "C-1008",
+    "product_name": "widget c",
+    "feedback": "Customer feedback entry number 9",
+    "rating": 4,
+    "metadata": {
+      "channel": "email",
+      "tags": [
+        "price"
+      ]
+    },
+    "timestamp": 1673222400.0
+  },
+  {
+    "log_id": "ee39d6ad-dc99-439b-a957-029cf0e30494",
+    "customer_id": "C-1009",
+    "product_name": "gadget x",
+    "feedback": "Customer feedback entry number 10",
+    "rating": 2,
+    "metadata": {
+      "channel": "phone",
+      "tags": [
+        "support"
+      ]
+    },
+    "timestamp": 1673308800.0
+  },
+  {
+    "log_id": "cfd74c88-684c-408c-8cff-8d54e501db8d",
+    "customer_id": "C-1010",
+    "product_name": "gadget y",
+    "feedback": "Customer feedback entry number 11",
+    "rating": 5,
+    "metadata": {
+      "channel": "web",
+      "tags": [
+        "shipping",
+        "quality"
+      ]
+    },
+    "timestamp": 1673395200.0
+  },
+  {
+    "log_id": "84ce44aa-e194-4115-8972-bf00f2e161cf",
+    "customer_id": "C-1011",
+    "product_name": "gadget z",
+    "feedback": "Customer feedback entry number 12",
+    "rating": 5,
+    "metadata": {
+      "channel": "mobile",
+      "tags": [
+        "packaging"
+      ]
+    },
+    "timestamp": 1673481600.0
+  },
+  {
+    "log_id": "dbb03318-c013-4852-b0c1-07904aa53eee",
+    "customer_id": "C-1012",
+    "product_name": "widget a",
+    "feedback": "Customer feedback entry number 13",
+    "rating": 4,
+    "metadata": {
+      "channel": "in-store",
+      "tags": [
+        "shipping"
+      ]
+    },
+    "timestamp": 1673568000.0
+  },
+  {
+    "log_id": "78e542ad-5a4a-4777-afb7-47c539f99888",
+    "customer_id": "C-1013",
+    "product_name": "widget b",
+    "feedback": "Customer feedback entry number 14",
+    "rating": 4,
+    "metadata": {
+      "channel": "email",
+      "tags": [
+        "quality"
+      ]
+    },
+    "timestamp": 1673654400.0
+  },
+  {
+    "log_id": "3eb2eded-9a17-4b6d-b993-4e214102c1b9",
+    "customer_id": "C-1014",
+    "product_name": "widget c",
+    "feedback": "Customer feedback entry number 15",
+    "rating": 4,
+    "metadata": {
+      "channel": "phone",
+      "tags": [
+        "price"
+      ]
+    },
+    "timestamp": 1673740800.0
+  },
+  {
+    "log_id": "8aefc555-8fc5-482e-9680-4aad6095cfbb",
+    "customer_id": "C-1015",
+    "product_name": "gadget x",
+    "feedback": "Customer feedback entry number 16",
+    "rating": 5,
+    "metadata": {
+      "channel": "web",
+      "tags": [
+        "support"
+      ]
+    },
+    "timestamp": 1673827200.0
+  },
+  {
+    "log_id": "d54da3cb-faee-4ba8-8971-62693d3b4bb7",
+    "customer_id": "C-1016",
+    "product_name": "gadget y",
+    "feedback": "Customer feedback entry number 17",
+    "rating": 4,
+    "metadata": {
+      "channel": "mobile",
+      "tags": [
+        "shipping",
+        "quality"
+      ]
+    },
+    "timestamp": 1673913600.0
+  },
+  {
+    "log_id": "a30595f7-6b95-4076-ba71-b4b3b0ff3e55",
+    "customer_id": "C-1017",
+    "product_name": "gadget z",
+    "feedback": "Customer feedback entry number 18",
+    "rating": 3,
+    "metadata": {
+      "channel": "in-store",
+      "tags": [
+        "packaging"
+      ]
+    },
+    "timestamp": 1674000000.0
+  },
+  {
+    "log_id": "6c8432f0-4227-44b5-a2b0-fb38bc1ba7a4",
+    "customer_id": "C-1018",
+    "product_name": "widget a",
+    "feedback": "Customer feedback entry number 19",
+    "rating": 5,
+    "metadata": {
+      "channel": "email",
+      "tags": [
+        "shipping"
+      ]
+    },
+    "timestamp": 1674086400.0
+  },
+  {
+    "log_id": "7e871372-ace2-4a3b-8eaa-9a5b7be04052",
+    "customer_id": "C-1019",
+    "product_name": "widget b",
+    "feedback": "Customer feedback entry number 20",
+    "rating": 4,
+    "metadata": {
+      "channel": "phone",
+      "tags": [
+        "quality"
+      ]
+    },
+    "timestamp": 1674172800.0
+  },
+  {
+    "log_id": "4b0a07cf-a285-4285-ad5a-00ca8b00c80a",
+    "customer_id": "C-1020",
+    "product_name": "widget c",
+    "feedback": "Customer feedback entry number 21",
+    "rating": 5,
+    "metadata": {
+      "channel": "web",
+      "tags": [
+        "price"
+      ]
+    },
+    "timestamp": 1674259200.0
+  },
+  {
+    "log_id": "0e6368ec-9365-43a8-90aa-38a467de865f",
+    "customer_id": "C-1021",
+    "product_name": "gadget x",
+    "feedback": "Customer feedback entry number 22",
+    "rating": 2,
+    "metadata": {
+      "channel": "mobile",
+      "tags": [
+        "support"
+      ]
+    },
+    "timestamp": 1674345600.0
+  },
+  {
+    "log_id": "5fe88d00-48eb-49cf-91b1-253b3c5abff6",
+    "customer_id": "C-1022",
+    "product_name": "gadget y",
+    "feedback": "Customer feedback entry number 23",
+    "rating": 4,
+    "metadata": {
+      "channel": "in-store",
+      "tags": [
+        "shipping",
+        "quality"
+      ]
+    },
+    "timestamp": 1674432000.0
+  },
+  {
+    "log_id": "01500a94-e0bc-4255-ae7a-2ff271eba790",
+    "customer_id": "C-1023",
+    "product_name": "gadget z",
+    "feedback": "Customer feedback entry number 24",
+    "rating": 3,
+    "metadata": {
+      "channel": "email",
+      "tags": [
+        "packaging"
+      ]
+    },
+    "timestamp": 1674518400.0
+  },
+  {
+    "log_id": "a75647f3-3b83-47bc-8fb7-92617fa6f6c1",
+    "customer_id": "C-1024",
+    "product_name": "widget a",
+    "feedback": "Customer feedback entry number 25",
+    "rating": 3,
+    "metadata": {
+      "channel": "phone",
+      "tags": [
+        "shipping"
+      ]
+    },
+    "timestamp": 1674604800.0
+  },
+  {
+    "log_id": "53b47dd4-e5e2-415a-87da-fef4daa9ac73",
+    "customer_id": "C-1025",
+    "product_name": "widget b",
+    "feedback": "Customer feedback entry number 26",
+    "rating": 1,
+    "metadata": {
+      "channel": "web",
+      "tags": [
+        "quality"
+      ]
+    },
+    "timestamp": 1674691200.0
+  },
+  {
+    "log_id": "c25da026-0328-4732-8fce-c758e311561b",
+    "customer_id": "C-1026",
+    "product_name": "widget c",
+    "feedback": "Customer feedback entry number 27",
+    "rating": 5,
+    "metadata": {
+      "channel": "mobile",
+      "tags": [
+        "price"
+      ]
+    },
+    "timestamp": 1674777600.0
+  },
+  {
+    "log_id": "fd4379db-1897-4b3b-a266-27bf8c741e27",
+    "customer_id": "C-1027",
+    "product_name": "gadget x",
+    "feedback": "Customer feedback entry number 28",
+    "rating": 3,
+    "metadata": {
+      "channel": "in-store",
+      "tags": [
+        "support"
+      ]
+    },
+    "timestamp": 1674864000.0
+  },
+  {
+    "log_id": "701f3d5f-de6e-4e8c-97e0-10d8572ebe9e",
+    "customer_id": "C-1028",
+    "product_name": "gadget y",
+    "feedback": "Customer feedback entry number 29",
+    "rating": 2,
+    "metadata": {
+      "channel": "email",
+      "tags": [
+        "shipping",
+        "quality"
+      ]
+    },
+    "timestamp": 1674950400.0
+  },
+  {
+    "log_id": "98e6ded7-f5ca-4d81-accc-6ed8d1cafc93",
+    "customer_id": "C-1029",
+    "product_name": "gadget z",
+    "feedback": "Customer feedback entry number 30",
+    "rating": 1,
+    "metadata": {
+      "channel": "phone",
+      "tags": [
+        "packaging"
+      ]
+    },
+    "timestamp": 1675036800.0
+  },
+  {
+    "log_id": "ca523bd6-f165-4c3f-b560-41f90b73f633",
+    "customer_id": "C-1030",
+    "product_name": "widget a",
+    "feedback": "Customer feedback entry number 31",
+    "rating": 2,
+    "metadata": {
+      "channel": "web",
+      "tags": [
+        "shipping"
+      ]
+    },
+    "timestamp": 1675123200.0
+  },
+  {
+    "log_id": "8e0c1054-647c-4099-801d-a74870a9986b",
+    "customer_id": "C-1031",
+    "product_name": "widget b",
+    "feedback": "Customer feedback entry number 32",
+    "rating": 5,
+    "metadata": {
+      "channel": "mobile",
+      "tags": [
+        "quality"
+      ]
+    },
+    "timestamp": 1675209600.0
+  },
+  {
+    "log_id": "33136ffc-8654-4988-889d-ef90159f8f9c",
+    "customer_id": "C-1032",
+    "product_name": "widget c",
+    "feedback": "Customer feedback entry number 33",
+    "rating": 4,
+    "metadata": {
+      "channel": "in-store",
+      "tags": [
+        "price"
+      ]
+    },
+    "timestamp": 1675296000.0
+  },
+  {
+    "log_id": "e7367dd5-da4b-4166-b9e9-20f13020ca1a",
+    "customer_id": "C-1033",
+    "product_name": "gadget x",
+    "feedback": "Customer feedback entry number 34",
+    "rating": 3,
+    "metadata": {
+      "channel": "email",
+      "tags": [
+        "support"
+      ]
+    },
+    "timestamp": 1675382400.0
+  },
+  {
+    "log_id": "d1c0e28b-f512-4de6-8bbe-2dac51754083",
+    "customer_id": "C-1034",
+    "product_name": "gadget y",
+    "feedback": "Customer feedback entry number 35",
+    "rating": 5,
+    "metadata": {
+      "channel": "phone",
+      "tags": [
+        "shipping",
+        "quality"
+      ]
+    },
+    "timestamp": 1675468800.0
+  },
+  {
+    "log_id": "e1796d3a-20fc-4989-a49f-c09a4f31822f",
+    "customer_id": "C-1035",
+    "product_name": "gadget z",
+    "feedback": "Customer feedback entry number 36",
+    "rating": 4,
+    "metadata": {
+      "channel": "web",
+      "tags": [
+        "packaging"
+      ]
+    },
+    "timestamp": 1675555200.0
+  },
+  {
+    "log_id": "2bf87c18-9a02-48f0-8050-7a245ef04e5f",
+    "customer_id": "C-1036",
+    "product_name": "widget a",
+    "feedback": "Customer feedback entry number 37",
+    "rating": 3,
+    "metadata": {
+      "channel": "mobile",
+      "tags": [
+        "shipping"
+      ]
+    },
+    "timestamp": 1675641600.0
+  },
+  {
+    "log_id": "209a7974-2314-4e3d-a665-0e5e69d1024f",
+    "customer_id": "C-1037",
+    "product_name": "widget b",
+    "feedback": "Customer feedback entry number 38",
+    "rating": 5,
+    "metadata": {
+      "channel": "in-store",
+      "tags": [
+        "quality"
+      ]
+    },
+    "timestamp": 1675728000.0
+  },
+  {
+    "log_id": "5451a93e-0b49-49a0-93af-32e205a7f11c",
+    "customer_id": "C-1038",
+    "product_name": "widget c",
+    "feedback": "Customer feedback entry number 39",
+    "rating": 4,
+    "metadata": {
+      "channel": "email",
+      "tags": [
+        "price"
+      ]
+    },
+    "timestamp": 1675814400.0
+  },
+  {
+    "log_id": "f39016b9-9dcf-4c52-92a6-64dbd4fc8f40",
+    "customer_id": "C-1039",
+    "product_name": "gadget x",
+    "feedback": "Customer feedback entry number 40",
+    "rating": 4,
+    "metadata": {
+      "channel": "phone",
+      "tags": [
+        "support"
+      ]
+    },
+    "timestamp": 1675900800.0
+  },
+  {
+    "log_id": "0a41dce4-a5e4-4c09-91a6-cf81a6499bc9",
+    "customer_id": "C-1040",
+    "product_name": "gadget y",
+    "feedback": "Customer feedback entry number 41",
+    "rating": 3,
+    "metadata": {
+      "channel": "web",
+      "tags": [
+        "shipping",
+        "quality"
+      ]
+    },
+    "timestamp": 1675987200.0
+  },
+  {
+    "log_id": "c03ed457-2223-42eb-a35b-6d6dc8bfa40f",
+    "customer_id": "C-1041",
+    "product_name": "gadget z",
+    "feedback": "Customer feedback entry number 42",
+    "rating": 1,
+    "metadata": {
+      "channel": "mobile",
+      "tags": [
+        "packaging"
+      ]
+    },
+    "timestamp": 1676073600.0
+  },
+  {
+    "log_id": "0d7cffb1-0d72-478a-8fac-e975ef6224d4",
+    "customer_id": "C-1042",
+    "product_name": "widget a",
+    "feedback": "Customer feedback entry number 43",
+    "rating": 4,
+    "metadata": {
+      "channel": "in-store",
+      "tags": [
+        "shipping"
+      ]
+    },
+    "timestamp": 1676160000.0
+  },
+  {
+    "log_id": "927f92cd-6aaf-4d3c-a39f-7ca68d470833",
+    "customer_id": "C-1043",
+    "product_name": "widget b",
+    "feedback": "Customer feedback entry number 44",
+    "rating": 4,
+    "metadata": {
+      "channel": "email",
+      "tags": [
+        "quality"
+      ]
+    },
+    "timestamp": 1676246400.0
+  },
+  {
+    "log_id": "60892b71-ea20-4c3b-9297-372f9a98da46",
+    "customer_id": "C-1044",
+    "product_name": "widget c",
+    "feedback": "Customer feedback entry number 45",
+    "rating": 4,
+    "metadata": {
+      "channel": "phone",
+      "tags": [
+        "price"
+      ]
+    },
+    "timestamp": 1676332800.0
+  },
+  {
+    "log_id": "657f8607-06b4-45ab-846c-1c61145124ee",
+    "customer_id": "C-1045",
+    "product_name": "gadget x",
+    "feedback": "Customer feedback entry number 46",
+    "rating": 3,
+    "metadata": {
+      "channel": "web",
+      "tags": [
+        "support"
+      ]
+    },
+    "timestamp": 1676419200.0
+  },
+  {
+    "log_id": "9704386b-4f59-4091-a41f-3c4134b3639d",
+    "customer_id": "C-1046",
+    "product_name": "gadget y",
+    "feedback": "Customer feedback entry number 47",
+    "rating": 4,
+    "metadata": {
+      "channel": "mobile",
+      "tags": [
+        "shipping",
+        "quality"
+      ]
+    },
+    "timestamp": 1676505600.0
+  },
+  {
+    "log_id": "d030c597-f2cd-4874-a7b7-6b4bfb795f21",
+    "customer_id": "C-1047",
+    "product_name": "gadget z",
+    "feedback": "Customer feedback entry number 48",
+    "rating": 5,
+    "metadata": {
+      "channel": "in-store",
+      "tags": [
+        "packaging"
+      ]
+    },
+    "timestamp": 1676592000.0
+  },
+  {
+    "log_id": "23b39e89-ddb0-43d0-9b88-7b286f32fa3d",
+    "customer_id": "C-1048",
+    "product_name": "widget a",
+    "feedback": "Customer feedback entry number 49",
+    "rating": 1,
+    "metadata": {
+      "channel": "email",
+      "tags": [
+        "shipping"
+      ]
+    },
+    "timestamp": 1676678400.0
+  },
+  {
+    "log_id": "d8d05a91-8f84-4542-9abd-d96483b54bda",
+    "customer_id": "C-1049",
+    "product_name": "widget b",
+    "feedback": "Customer feedback entry number 50",
+    "rating": 5,
+    "metadata": {
+      "channel": "phone",
+      "tags": [
+        "quality"
+      ]
+    },
+    "timestamp": 1676764800.0
+  },
+  {
+    "log_id": "90eae078-a2d3-49b8-b16b-00765f0227cf",
+    "customer_id": "C-1050",
+    "product_name": "widget c",
+    "feedback": "Customer feedback entry number 51",
+    "rating": 4,
+    "metadata": {
+      "channel": "web",
+      "tags": [
+        "price"
+      ]
+    },
+    "timestamp": 1676851200.0
+  },
+  {
+    "log_id": "04149aef-c57a-4842-8afd-ab4b0c92e7e4",
+    "customer_id": "C-1051",
+    "product_name": "gadget x",
+    "feedback": "Customer feedback entry number 52",
+    "rating": 3,
+    "metadata": {
+      "channel": "mobile",
+      "tags": [
+        "support"
+      ]
+    },
+    "timestamp": 1676937600.0
+  },
+  {
+    "log_id": "c407f316-5dfd-4369-84cc-3d14f11bc9c0",
+    "customer_id": "C-1052",
+    "product_name": "gadget y",
+    "feedback": "Customer feedback entry number 53",
+    "rating": 4,
+    "metadata": {
+      "channel": "in-store",
+      "tags": [
+        "shipping",
+        "quality"
+      ]
+    },
+    "timestamp": 1677024000.0
+  },
+  {
+    "log_id": "44de45ad-79c2-4767-9161-a6d0077c452f",
+    "customer_id": "C-1053",
+    "product_name": "gadget z",
+    "feedback": "Customer feedback entry number 54",
+    "rating": 5,
+    "metadata": {
+      "channel": "email",
+      "tags": [
+        "packaging"
+      ]
+    },
+    "timestamp": 1677110400.0
+  },
+  {
+    "log_id": "55f0b888-8ccd-4d68-b05a-6b261fd94e1c",
+    "customer_id": "C-1054",
+    "product_name": "widget a",
+    "feedback": "Customer feedback entry number 55",
+    "rating": 3,
+    "metadata": {
+      "channel": "phone",
+      "tags": [
+        "shipping"
+      ]
+    },
+    "timestamp": 1677196800.0
+  },
+  {
+    "log_id": "8adb0f54-7bde-4b39-9937-e80854736d98",
+    "customer_id": "C-1055",
+    "product_name": "widget b",
+    "feedback": "Customer feedback entry number 56",
+    "rating": 5,
+    "metadata": {
+      "channel": "web",
+      "tags": [
+        "quality"
+      ]
+    },
+    "timestamp": 1677283200.0
+  },
+  {
+    "log_id": "3e237e97-ca61-4285-93db-93399aff3a9c",
+    "customer_id": "C-1056",
+    "product_name": "widget c",
+    "feedback": "Customer feedback entry number 57",
+    "rating": 4,
+    "metadata": {
+      "channel": "mobile",
+      "tags": [
+        "price"
+      ]
+    },
+    "timestamp": 1677369600.0
+  },
+  {
+    "log_id": "dd5ea118-4614-440f-9c9e-e950be10e6ee",
+    "customer_id": "C-1057",
+    "product_name": "gadget x",
+    "feedback": "Customer feedback entry number 58",
+    "rating": 2,
+    "metadata": {
+      "channel": "in-store",
+      "tags": [
+        "support"
+      ]
+    },
+    "timestamp": 1677456000.0
+  },
+  {
+    "log_id": "40f40bcd-259c-45a7-8f80-cecd4f669ea9",
+    "customer_id": "C-1058",
+    "product_name": "gadget y",
+    "feedback": "Customer feedback entry number 59",
+    "rating": 5,
+    "metadata": {
+      "channel": "email",
+      "tags": [
+        "shipping",
+        "quality"
+      ]
+    },
+    "timestamp": 1677542400.0
+  },
+  {
+    "log_id": "8843912f-7899-44f1-8b6c-09f2a4bc514a",
+    "customer_id": "C-1059",
+    "product_name": "gadget z",
+    "feedback": "Customer feedback entry number 60",
+    "rating": 5,
+    "metadata": {
+      "channel": "phone",
+      "tags": [
+        "packaging"
+      ]
+    },
+    "timestamp": 1677628800.0
+  }
+]

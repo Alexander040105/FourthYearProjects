@@ -1,0 +1,45 @@
+RetailPulse Incremental Multi-Target ETL Pipeline - Summary Report
+==============================================================
+Extraction:
+  - File scan                : 3 new, 0 changed, 0 unchanged
+  - CSV files to process     : 2
+  - JSON files to process    : 1
+  - CSV raw rows             : 1005
+  - JSON raw objects         : 60
+
+Transformation / Cleansing:
+  - Raw CSV rows             : 1005
+  - Quarantined (missing ID/date): 200
+  - Dropped exact duplicates : 0
+  - Cleaned CSV rows         : 805
+  - New rows for SQLite      : 805
+  - New rows for MongoDB     : 805
+  - New feedback for MongoDB : 60
+
+SQLite Load:
+  - fact_sales total rows    : 805
+  - dim_store total rows     : 19
+  - fact_sales date range    : 2022-12-20 to 2023-09-05
+
+MongoDB Load:
+  - sales_documents total    : 805
+  - feedback_logs total      : 60
+
+Verification query outputs:
+  SQLite:
+    SELECT COUNT(*), MIN(last_restocked), MAX(last_restocked) FROM fact_sales
+      → 805, 2022-12-20, 2023-09-05
+    SELECT COUNT(*) FROM dim_store
+      → 19
+  MongoDB:
+    db.sales_documents.count_documents({})
+      → 805
+    db.feedback_logs.count_documents({})
+      → 60
+
+Verification artifacts:
+  - SQLite DB                : D:\63947\Documents\GitHub\FourthYearProjects\data_warehousing\midterms\ETL_Pipeline_LabActivity\retail_warehouse.db
+  - MongoDB samples          : D:\63947\Documents\GitHub\FourthYearProjects\data_warehousing\midterms\ETL_Pipeline_LabActivity\mongo_verification.json
+  - Summary report           : D:\63947\Documents\GitHub\FourthYearProjects\data_warehousing\midterms\ETL_Pipeline_LabActivity\pipeline_summary.txt
+
+Execution time              : 8.41 seconds

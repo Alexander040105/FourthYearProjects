@@ -13,3 +13,5 @@ __pycache__/
 # MongoDB local data / downloads
 MongoDB_DataDirectory/mongodb-*-portable/
 *.zip
+
+atlas-credentials.env

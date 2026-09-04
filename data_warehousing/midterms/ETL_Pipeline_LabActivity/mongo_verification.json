@@ -1,0 +1,36 @@
+{
+  "database": "warehouse_db",
+  "sales_documents_sample": {
+    "transaction_id": 1,
+    "product": {
+      "product_id": 1860,
+      "product_name": "widget a",
+      "category": "CLOTHING"
+    },
+    "store": {
+      "warehouse": "Warehouse 2",
+      "location": "Aisle 3"
+    },
+    "transaction": {
+      "quantity": 100.0,
+      "price": 19.99,
+      "supplier": "Supplier B",
+      "status": "In Stock",
+      "last_restocked": "2022-12-20 00:00:00"
+    }
+  },
+  "feedback_logs_sample": {
+    "log_id": "1ddf2969-2b23-4f4c-874f-207a7656cb44",
+    "customer_id": "C-1000",
+    "product_name": "widget a",
+    "feedback": "Customer feedback entry number 1",
+    "rating": 3,
+    "metadata": {
+      "channel": "web",
+      "tags": [
+        "shipping"
+      ]
+    },
+    "timestamp": "2023-01-01 00:00:00"
+  }
+}
