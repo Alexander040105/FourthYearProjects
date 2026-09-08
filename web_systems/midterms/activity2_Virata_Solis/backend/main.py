@@ -1,7 +1,18 @@
 from fastapi import FastAPI
-import book_routes 
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
+from book_routes import router as book_router
 
 app = FastAPI()
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+app.include_router(book_router)
+
+@app.get("/")
+def main():
+    return {"message":"the API runs!"}
