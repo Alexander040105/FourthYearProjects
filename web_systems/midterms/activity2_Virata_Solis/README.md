@@ -30,7 +30,7 @@ pip install -r web_systems/midterms/activity2_Virata_Solis/backend/requirements.
 
 # run the API — MUST be run from the backend/ folder
 cd web_systems/midterms/activity2_Virata_Solis/backend
-uvicorn main:app --reload
+fastapi dev main.py
 ```
 
 Swagger docs: http://127.0.0.1:8000/docs
