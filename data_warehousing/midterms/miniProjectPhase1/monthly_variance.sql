@@ -1,19 +1,3 @@
--- ============================================================================
--- monthly_variance.sql
--- Group 8: Retail Grocery Inventory & POS Warehouse - Mini Project Phase 1
---
--- Monthly sales variance analytics over the SQLite warehouse
--- (grocery_warehouse.db). Sales are attributed to the month of
--- last_order_date; revenue = sales_volume * unit_price.
---
--- Each query is preceded by a "-- >>> name" sentinel so grocery_etl.py can
--- execute them individually and fold the results into pipeline_summary.txt.
--- The file is also runnable directly:
---     sqlite3 grocery_warehouse.db < monthly_variance.sql
--- ============================================================================
-
--- >>> monthly_sales_variance
--- Monthly totals and month-over-month (MoM) variance using a CTE + LAG().
 WITH monthly_sales AS (
     SELECT
         strftime('%Y-%m', last_order_date)      AS sales_month,
@@ -40,8 +24,6 @@ monthly_variance AS (
 )
 SELECT * FROM monthly_variance ORDER BY sales_month;
 
--- >>> category_monthly_variance
--- MoM revenue variance per product category (partitioned window).
 WITH category_monthly AS (
     SELECT
         p.category,
@@ -70,9 +52,6 @@ category_variance AS (
 )
 SELECT * FROM category_variance ORDER BY category, sales_month;
 
--- >>> monthly_reorder_pressure
--- How many products breached their reorder level each month, and the
--- replenishment spend implied by the suggested reorder quantities.
 WITH monthly_flagged AS (
     SELECT
         strftime('%Y-%m', last_order_date)  AS sales_month,
@@ -94,8 +73,6 @@ SELECT
 FROM monthly_flagged
 ORDER BY sales_month;
 
--- >>> top_stockout_risks
--- The 15 items closest to stockout (fewest days of cover on hand).
 SELECT
     product_id,
     product_name,

@@ -60,10 +60,6 @@ except ImportError:  # pragma: no cover
     mongomock = None
     MONGOMOCK_AVAILABLE = False
 
-
-# ---------------------------------------------------------------------------
-# Paths
-# ---------------------------------------------------------------------------
 SCRIPT_DIR = Path(__file__).resolve().parent
 CSV_PATH = SCRIPT_DIR / "Grocery_Inventory_and_Sales_Dataset.csv"
 DB_PATH = SCRIPT_DIR / "grocery_warehouse.db"
@@ -79,16 +75,9 @@ DEFAULT_MONGO_DB = "grocery_warehouse"
 AUDIT_COLLECTION = "supplier_audit_logs"
 
 
-# ---------------------------------------------------------------------------
-# Logging
-# ---------------------------------------------------------------------------
 logging.basicConfig(level=logging.INFO, format="%(message)s", stream=sys.stdout)
 logger = logging.getLogger("grocery_etl")
 
-
-# ---------------------------------------------------------------------------
-# Environment loader
-# ---------------------------------------------------------------------------
 def load_env() -> Optional[Path]:
     """Load KEY=VALUE pairs from the first existing .env candidate.
 
@@ -112,12 +101,7 @@ def load_env() -> Optional[Path]:
         return path
     return None
 
-
-# ---------------------------------------------------------------------------
-# Extract
-# ---------------------------------------------------------------------------
 def extract_csv(path: Path = CSV_PATH) -> pd.DataFrame:
-    """Read the raw POS/inventory extract as strings for safe cleansing."""
     df = pd.read_csv(path, dtype=str)
     logger.info(f"[EXTRACT] Read {len(df)} rows x {len(df.columns)} cols from {path.name}")
     return df
@@ -166,11 +150,6 @@ def clean_dates(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def transform(df: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame, Dict[str, int]]:
-    """Cleanse the raw extract.
-
-    Returns (clean_df, quarantine_df, metrics). Unrecoverable rows are
-    quarantined with a reason column rather than silently dropped.
-    """
     metrics = {
         "raw_rows": len(df),
         "price_symbols_cleaned": 0,
@@ -180,23 +159,19 @@ def transform(df: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame, Dict[str, i
         "cleaned_rows": 0,
     }
 
-    # Normalize headers and trim whitespace on every string column
     df = df.rename(columns=COLUMN_RENAME)
     for col in df.columns:
         df[col] = df[col].astype("string").str.strip()
 
-    # Currency cleaning: "$4.50 " -> 4.50
     df, metrics["price_symbols_cleaned"] = clean_unit_price(df)
 
-    # Missing category -> 'Uncategorized' (flagged for the supplier audit)
     df["category_was_missing"] = df["category"].isna()
     metrics["missing_category_filled"] = int(df["category_was_missing"].sum())
     df["category"] = df["category"].fillna("Uncategorized")
 
-    # Mixed-width M/D/YYYY dates -> datetimes
     df = clean_dates(df)
 
-    # Numeric casts
+
     for col in [
         "stock_quantity",
         "reorder_level",
@@ -206,13 +181,9 @@ def transform(df: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame, Dict[str, i
     ]:
         df[col] = pd.to_numeric(df[col], errors="coerce")
 
-    # ID format validation
     df["product_id_ok"] = df["product_id"].str.match(ID_PATTERN, na=False)
     df["supplier_id_ok"] = df["supplier_id"].str.match(ID_PATTERN, na=False)
 
-    # ---- Quarantine rules -------------------------------------------------
-    # A row is unrecoverable when it cannot be identified or cannot feed the
-    # monthly sales variance analysis.
     reasons = pd.Series("", index=df.index)
     rules = {
         "invalid_product_id": ~df["product_id_ok"],
@@ -237,10 +208,8 @@ def transform(df: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame, Dict[str, i
     )
     metrics["duplicates_dropped"] = before - len(df)
 
-    # Stable row hash for idempotent loads
     df["row_hash"] = df.apply(_compute_row_hash, axis=1)
 
-    # Final typing
     for col in [
         "stock_quantity",
         "reorder_level",
@@ -277,10 +246,6 @@ def _compute_row_hash(row: pd.Series) -> str:
             parts.append(str(value).strip().lower())
     return hashlib.sha256("|".join(parts).encode("utf-8")).hexdigest()
 
-
-# ---------------------------------------------------------------------------
-# Star schema build
-# ---------------------------------------------------------------------------
 def build_star_schema(
     df: pd.DataFrame,
 ) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame]:
@@ -310,9 +275,6 @@ def build_star_schema(
     return dim_product, dim_supplier, dim_store, fact
 
 
-# ---------------------------------------------------------------------------
-# Load - SQLite warehouse
-# ---------------------------------------------------------------------------
 SQLITE_SCHEMA = """
 CREATE TABLE IF NOT EXISTS dim_product (
     product_key   INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -509,10 +471,6 @@ def load_sqlite(
     )
     return counts
 
-
-# ---------------------------------------------------------------------------
-# Supplier audit documents -> MongoDB
-# ---------------------------------------------------------------------------
 def build_supplier_audit_docs(df: pd.DataFrame) -> List[dict]:
     """Derive one audit document per supplier entity from the cleaned data.
 
@@ -658,8 +616,6 @@ def _get_mongo_collection(dry_run: bool):
         logger.error("[LOAD - MONGODB] pymongo not installed: pip install 'pymongo[srv]'")
         return None, None
 
-    # Try every MONGODB_URI* variable in order (MONGODB_URI, MONGODB_URI2, ...)
-    # so a stale URI earlier in .env does not block a working later one.
     uri_vars = sorted(
         k for k in os.environ if k == "MONGODB_URI" or k.startswith("MONGODB_URI")
     )
@@ -741,9 +697,6 @@ def export_mongo_verification(dry_run: bool) -> None:
     logger.info(f"[VERIFY - MONGODB] Exported sample doc to {MONGO_VERIFY_JSON.name}")
 
 
-# ---------------------------------------------------------------------------
-# Analytics - monthly sales variance CTEs
-# ---------------------------------------------------------------------------
 def run_analytics(db_path: Path, sql_path: Path = SQL_PATH) -> List[str]:
     """Execute each named query in monthly_variance.sql; return report lines."""
     if not sql_path.exists():
@@ -790,9 +743,6 @@ def run_analytics(db_path: Path, sql_path: Path = SQL_PATH) -> List[str]:
     return report
 
 
-# ---------------------------------------------------------------------------
-# Verification
-# ---------------------------------------------------------------------------
 def verify_sqlite(db_path: Path) -> Dict[str, object]:
     conn = sqlite3.connect(db_path)
     cur = conn.cursor()
@@ -808,10 +758,6 @@ def verify_sqlite(db_path: Path) -> Dict[str, object]:
     conn.close()
     return out
 
-
-# ---------------------------------------------------------------------------
-# Main
-# ---------------------------------------------------------------------------
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Group 8 grocery warehouse ETL pipeline")
     p.add_argument("--dry-run", action="store_true", help="use mongomock instead of Atlas")
