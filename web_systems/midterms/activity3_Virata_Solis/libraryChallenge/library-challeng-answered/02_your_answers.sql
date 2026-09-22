@@ -97,8 +97,6 @@ INSERT INTO book_copies (book_id, status) VALUES
     (1, 'on_loan'),    (1, 'available'),  (2, 'on_loan'),    (2, 'on_loan'),
     (3, 'on_loan'),    (3, 'on_loan'),    (4, 'on_loan'),    (5, 'available');
 
--- loans: the five inherited rows, plus four active loans for Dara.
--- (sample due dates are in June 2026, so unreturned ones ARE overdue.)
 INSERT INTO loaned_books (member_id, book_id, copy_id, borrowed_on, due_on, returned_on) VALUES
     (1, 1, 1, '2026-06-01', '2026-06-15', '2026-06-10'),  
     (1, 2, 3, '2026-06-03', '2026-06-17', '2026-06-17'),  
@@ -110,7 +108,6 @@ INSERT INTO loaned_books (member_id, book_id, copy_id, borrowed_on, due_on, retu
     (4, 3, 6, '2026-09-10', '2026-09-24', NULL),          
     (4, 4, 7, '2026-09-10', '2026-09-24', NULL);          
 
--- every copy of 'Networks' is out -> Ana queues for the title
 INSERT INTO reservations (book_id, member_id, reserved_on) VALUES
     (3, 1, '2026-09-16 09:30');
 
