@@ -150,5 +150,3 @@ LEFT JOIN members AS m
 ON l.member_id = m.member_id 
 LEFT JOIN books AS b ON l.book_id = b.book_id
 WHERE l.returned_on IS NULL AND CURRENT_DATE > l.due_on;
-
--- Q12 (no SQL) In a comment, say what the given query returns and why.
