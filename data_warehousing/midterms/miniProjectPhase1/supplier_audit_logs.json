@@ -2,8 +2,8 @@
   {
     "_id": "Abata",
     "supplier_name": "Abata",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "17-963-6051",
@@ -72,8 +72,8 @@
   {
     "_id": "Abatz",
     "supplier_name": "Abatz",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "04-456-0715",
@@ -165,8 +165,8 @@
   {
     "_id": "Agivu",
     "supplier_name": "Agivu",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "52-130-3457"
@@ -214,8 +214,8 @@
   {
     "_id": "Aibox",
     "supplier_name": "Aibox",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "17-807-6972",
@@ -293,8 +293,8 @@
   {
     "_id": "Aimbu",
     "supplier_name": "Aimbu",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "35-370-7603"
@@ -334,8 +334,8 @@
   {
     "_id": "Ainyx",
     "supplier_name": "Ainyx",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "43-542-6868",
@@ -418,8 +418,8 @@
   {
     "_id": "Aivee",
     "supplier_name": "Aivee",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "08-218-9429",
@@ -478,8 +478,8 @@
   {
     "_id": "Avamba",
     "supplier_name": "Avamba",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "20-257-6927",
@@ -546,8 +546,8 @@
   {
     "_id": "Avamm",
     "supplier_name": "Avamm",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "79-704-1471",
@@ -579,8 +579,8 @@
   {
     "_id": "Avavee",
     "supplier_name": "Avavee",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "26-796-0872",
@@ -631,8 +631,8 @@
   {
     "_id": "Avaveo",
     "supplier_name": "Avaveo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "22-867-3079",
@@ -736,8 +736,8 @@
   {
     "_id": "Babbleblab",
     "supplier_name": "Babbleblab",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "01-165-8830"
@@ -777,8 +777,8 @@
   {
     "_id": "Babbleopia",
     "supplier_name": "Babbleopia",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "29-821-5359",
@@ -818,8 +818,8 @@
   {
     "_id": "Babbleset",
     "supplier_name": "Babbleset",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "71-467-4910"
@@ -839,8 +839,8 @@
   {
     "_id": "Babblestorm",
     "supplier_name": "Babblestorm",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "05-050-4384",
@@ -945,8 +945,8 @@
   {
     "_id": "BlogXS",
     "supplier_name": "BlogXS",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "37-599-8579",
@@ -1106,8 +1106,8 @@
   {
     "_id": "Blognation",
     "supplier_name": "Blognation",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "57-569-7172",
@@ -1192,8 +1192,8 @@
   {
     "_id": "Blogpad",
     "supplier_name": "Blogpad",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "11-742-5033",
@@ -1278,8 +1278,8 @@
   {
     "_id": "Blogspan",
     "supplier_name": "Blogspan",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "08-209-1598",
@@ -1312,8 +1312,8 @@
   {
     "_id": "Blogtag",
     "supplier_name": "Blogtag",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "17-562-1176",
@@ -1363,8 +1363,8 @@
   {
     "_id": "Blogtags",
     "supplier_name": "Blogtags",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "45-471-5053"
@@ -1404,8 +1404,8 @@
   {
     "_id": "Bluejam",
     "supplier_name": "Bluejam",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "32-386-9832",
@@ -1445,8 +1445,8 @@
   {
     "_id": "Bluezoom",
     "supplier_name": "Bluezoom",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "06-151-9076",
@@ -1497,8 +1497,8 @@
   {
     "_id": "Brainbox",
     "supplier_name": "Brainbox",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "50-314-5433"
@@ -1518,8 +1518,8 @@
   {
     "_id": "Brainlounge",
     "supplier_name": "Brainlounge",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "69-378-2045"
@@ -1559,8 +1559,8 @@
   {
     "_id": "Brainsphere",
     "supplier_name": "Brainsphere",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "72-931-9828"
@@ -1609,8 +1609,8 @@
   {
     "_id": "Brainverse",
     "supplier_name": "Brainverse",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "16-419-1419",
@@ -1738,8 +1738,8 @@
   {
     "_id": "Brightbean",
     "supplier_name": "Brightbean",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "01-210-3485",
@@ -1865,8 +1865,8 @@
   {
     "_id": "Brightdog",
     "supplier_name": "Brightdog",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "16-474-4516",
@@ -1934,8 +1934,8 @@
   {
     "_id": "Browseblab",
     "supplier_name": "Browseblab",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "07-959-3210",
@@ -2011,8 +2011,8 @@
   {
     "_id": "Browsebug",
     "supplier_name": "Browsebug",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "24-087-5935"
@@ -2051,8 +2051,8 @@
   {
     "_id": "Browsecat",
     "supplier_name": "Browsecat",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "18-743-4684",
@@ -2134,8 +2134,8 @@
   {
     "_id": "Browsedrive",
     "supplier_name": "Browsedrive",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "99-570-8162"
@@ -2166,8 +2166,8 @@
   {
     "_id": "Browsetype",
     "supplier_name": "Browsetype",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "64-604-1679",
@@ -2268,8 +2268,8 @@
   {
     "_id": "Browsezoom",
     "supplier_name": "Browsezoom",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "15-655-3923",
@@ -2354,8 +2354,8 @@
   {
     "_id": "Bubblebox",
     "supplier_name": "Bubblebox",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "64-070-7611",
@@ -2458,8 +2458,8 @@
   {
     "_id": "Bubblemix",
     "supplier_name": "Bubblemix",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "01-495-9336",
@@ -2554,8 +2554,8 @@
   {
     "_id": "Buzzbean",
     "supplier_name": "Buzzbean",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "02-811-7933",
@@ -2631,8 +2631,8 @@
   {
     "_id": "Buzzdog",
     "supplier_name": "Buzzdog",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "04-786-5408",
@@ -2700,8 +2700,8 @@
   {
     "_id": "Buzzshare",
     "supplier_name": "Buzzshare",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "08-312-0872",
@@ -2804,8 +2804,8 @@
   {
     "_id": "Buzzster",
     "supplier_name": "Buzzster",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "51-010-8144",
@@ -2873,8 +2873,8 @@
   {
     "_id": "Camido",
     "supplier_name": "Camido",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "16-656-4821",
@@ -2994,8 +2994,8 @@
   {
     "_id": "Camimbo",
     "supplier_name": "Camimbo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "10-950-0546",
@@ -3054,8 +3054,8 @@
   {
     "_id": "Centidel",
     "supplier_name": "Centidel",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "86-400-4155",
@@ -3131,8 +3131,8 @@
   {
     "_id": "Centimia",
     "supplier_name": "Centimia",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "11-031-9939",
@@ -3267,8 +3267,8 @@
   {
     "_id": "Centizu",
     "supplier_name": "Centizu",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "09-090-6360",
@@ -3361,8 +3361,8 @@
   {
     "_id": "Chatterbridge",
     "supplier_name": "Chatterbridge",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "28-575-0716",
@@ -3441,8 +3441,8 @@
   {
     "_id": "Chatterpoint",
     "supplier_name": "Chatterpoint",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "50-378-4320",
@@ -3510,8 +3510,8 @@
   {
     "_id": "Cogibox",
     "supplier_name": "Cogibox",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "56-554-1762",
@@ -3560,8 +3560,8 @@
   {
     "_id": "Cogidoo",
     "supplier_name": "Cogidoo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "60-394-8955"
@@ -3581,8 +3581,8 @@
   {
     "_id": "Cogilith",
     "supplier_name": "Cogilith",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "55-838-9088",
@@ -3650,8 +3650,8 @@
   {
     "_id": "DabZ",
     "supplier_name": "DabZ",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "18-880-7910",
@@ -3719,8 +3719,8 @@
   {
     "_id": "Dabfeed",
     "supplier_name": "Dabfeed",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "26-454-7297"
@@ -3760,8 +3760,8 @@
   {
     "_id": "Dabjam",
     "supplier_name": "Dabjam",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "17-494-5505",
@@ -3864,8 +3864,8 @@
   {
     "_id": "Dabshots",
     "supplier_name": "Dabshots",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "13-457-9946",
@@ -3916,8 +3916,8 @@
   {
     "_id": "Dabtype",
     "supplier_name": "Dabtype",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "14-108-0409",
@@ -4004,8 +4004,8 @@
   {
     "_id": "Dabvine",
     "supplier_name": "Dabvine",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "20-426-2191"
@@ -4036,8 +4036,8 @@
   {
     "_id": "Dazzlesphere",
     "supplier_name": "Dazzlesphere",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "57-202-5756",
@@ -4139,8 +4139,8 @@
   {
     "_id": "Demimbu",
     "supplier_name": "Demimbu",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "61-793-0279",
@@ -4217,8 +4217,8 @@
   {
     "_id": "Demivee",
     "supplier_name": "Demivee",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "08-439-3820",
@@ -4313,8 +4313,8 @@
   {
     "_id": "Demizz",
     "supplier_name": "Demizz",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "47-732-4446",
@@ -4355,8 +4355,8 @@
   {
     "_id": "Devbug",
     "supplier_name": "Devbug",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "34-850-0377",
@@ -4450,8 +4450,8 @@
   {
     "_id": "Devcast",
     "supplier_name": "Devcast",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "53-718-1768",
@@ -4528,8 +4528,8 @@
   {
     "_id": "Devpoint",
     "supplier_name": "Devpoint",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "23-052-4744",
@@ -4632,8 +4632,8 @@
   {
     "_id": "Devpulse",
     "supplier_name": "Devpulse",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "19-875-5642",
@@ -4762,8 +4762,8 @@
   {
     "_id": "Devshare",
     "supplier_name": "Devshare",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "07-520-1107",
@@ -4884,8 +4884,8 @@
   {
     "_id": "Digitube",
     "supplier_name": "Digitube",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "04-854-7165",
@@ -4952,8 +4952,8 @@
   {
     "_id": "Divanoodle",
     "supplier_name": "Divanoodle",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "64-752-3122"
@@ -5001,8 +5001,8 @@
   {
     "_id": "Divape",
     "supplier_name": "Divape",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "42-254-7371"
@@ -5033,8 +5033,8 @@
   {
     "_id": "Dynabox",
     "supplier_name": "Dynabox",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "12-264-4503",
@@ -5112,8 +5112,8 @@
   {
     "_id": "Dynava",
     "supplier_name": "Dynava",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "18-733-2453",
@@ -5172,8 +5172,8 @@
   {
     "_id": "Dynazzy",
     "supplier_name": "Dynazzy",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "74-062-7176",
@@ -5248,8 +5248,8 @@
   {
     "_id": "Eabox",
     "supplier_name": "Eabox",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "75-536-2986",
@@ -5308,8 +5308,8 @@
   {
     "_id": "Eadel",
     "supplier_name": "Eadel",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "61-917-4271",
@@ -5383,8 +5383,8 @@
   {
     "_id": "Eamia",
     "supplier_name": "Eamia",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "96-012-3393"
@@ -5433,8 +5433,8 @@
   {
     "_id": "Eare",
     "supplier_name": "Eare",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "20-103-9525",
@@ -5491,8 +5491,8 @@
   {
     "_id": "Eayo",
     "supplier_name": "Eayo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "13-475-1009",
@@ -5567,8 +5567,8 @@
   {
     "_id": "Eazzy",
     "supplier_name": "Eazzy",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "89-159-0852"
@@ -5607,8 +5607,8 @@
   {
     "_id": "Edgeclub",
     "supplier_name": "Edgeclub",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "42-976-2737"
@@ -5639,8 +5639,8 @@
   {
     "_id": "Edgeify",
     "supplier_name": "Edgeify",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "10-038-3988"
@@ -5680,8 +5680,8 @@
   {
     "_id": "Edgepulse",
     "supplier_name": "Edgepulse",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "42-380-8881"
@@ -5721,8 +5721,8 @@
   {
     "_id": "Edgetag",
     "supplier_name": "Edgetag",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "61-807-0746"
@@ -5742,8 +5742,8 @@
   {
     "_id": "Edgewire",
     "supplier_name": "Edgewire",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "02-530-5932",
@@ -5796,8 +5796,8 @@
   {
     "_id": "Eidel",
     "supplier_name": "Eidel",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "00-635-4638",
@@ -5917,8 +5917,8 @@
   {
     "_id": "Eimbee",
     "supplier_name": "Eimbee",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "07-500-2023",
@@ -6103,8 +6103,8 @@
   {
     "_id": "Einti",
     "supplier_name": "Einti",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "32-402-9679",
@@ -6155,8 +6155,8 @@
   {
     "_id": "Eire",
     "supplier_name": "Eire",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "08-828-3804",
@@ -6223,8 +6223,8 @@
   {
     "_id": "Fadeo",
     "supplier_name": "Fadeo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "70-463-6597"
@@ -6255,8 +6255,8 @@
   {
     "_id": "Fanoodle",
     "supplier_name": "Fanoodle",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "37-567-5710"
@@ -6276,8 +6276,8 @@
   {
     "_id": "Fatz",
     "supplier_name": "Fatz",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "60-508-7567"
@@ -6317,8 +6317,8 @@
   {
     "_id": "Feedbug",
     "supplier_name": "Feedbug",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "48-884-5431",
@@ -6395,8 +6395,8 @@
   {
     "_id": "Feedfire",
     "supplier_name": "Feedfire",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "14-009-8505",
@@ -6473,8 +6473,8 @@
   {
     "_id": "Feedfish",
     "supplier_name": "Feedfish",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "56-969-3705",
@@ -6544,8 +6544,8 @@
   {
     "_id": "Feedmix",
     "supplier_name": "Feedmix",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "23-319-2681",
@@ -6672,8 +6672,8 @@
   {
     "_id": "Feednation",
     "supplier_name": "Feednation",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "21-416-3796"
@@ -6704,8 +6704,8 @@
   {
     "_id": "Feedspan",
     "supplier_name": "Feedspan",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "06-569-4690",
@@ -6746,8 +6746,8 @@
   {
     "_id": "Fivebridge",
     "supplier_name": "Fivebridge",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "40-056-7748",
@@ -6851,8 +6851,8 @@
   {
     "_id": "Fiveclub",
     "supplier_name": "Fiveclub",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "07-471-0050",
@@ -6911,8 +6911,8 @@
   {
     "_id": "Fivespan",
     "supplier_name": "Fivespan",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "49-901-0828"
@@ -6943,8 +6943,8 @@
   {
     "_id": "Flashdog",
     "supplier_name": "Flashdog",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "02-656-3112"
@@ -6975,8 +6975,8 @@
   {
     "_id": "Flashset",
     "supplier_name": "Flashset",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "44-429-6199",
@@ -7009,8 +7009,8 @@
   {
     "_id": "Flashspan",
     "supplier_name": "Flashspan",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "48-562-3582",
@@ -7112,8 +7112,8 @@
   {
     "_id": "Flipbug",
     "supplier_name": "Flipbug",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "15-365-5585",
@@ -7240,8 +7240,8 @@
   {
     "_id": "Flipopia",
     "supplier_name": "Flipopia",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "15-444-8224",
@@ -7362,8 +7362,8 @@
   {
     "_id": "Fliptune",
     "supplier_name": "Fliptune",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "14-483-5712",
@@ -7405,8 +7405,8 @@
   {
     "_id": "Gabcube",
     "supplier_name": "Gabcube",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "93-877-9384"
@@ -7426,8 +7426,8 @@
   {
     "_id": "Gabspot",
     "supplier_name": "Gabspot",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "23-450-0301",
@@ -7511,8 +7511,8 @@
   {
     "_id": "Gabvine",
     "supplier_name": "Gabvine",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "42-210-6541",
@@ -7580,8 +7580,8 @@
   {
     "_id": "Geba",
     "supplier_name": "Geba",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "39-412-7454",
@@ -7685,8 +7685,8 @@
   {
     "_id": "Gevee",
     "supplier_name": "Gevee",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "16-776-9987",
@@ -7781,8 +7781,8 @@
   {
     "_id": "Gigabox",
     "supplier_name": "Gigabox",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "00-912-3545",
@@ -7858,8 +7858,8 @@
   {
     "_id": "Gigaclub",
     "supplier_name": "Gigaclub",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "33-141-1402",
@@ -7911,8 +7911,8 @@
   {
     "_id": "Gigashots",
     "supplier_name": "Gigashots",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "07-055-5188",
@@ -8017,8 +8017,8 @@
   {
     "_id": "Gigazoom",
     "supplier_name": "Gigazoom",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "15-852-0491",
@@ -8138,8 +8138,8 @@
   {
     "_id": "InnoZ",
     "supplier_name": "InnoZ",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "30-438-6295",
@@ -8180,8 +8180,8 @@
   {
     "_id": "Innojam",
     "supplier_name": "Innojam",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "41-821-0197",
@@ -8241,8 +8241,8 @@
   {
     "_id": "Innotype",
     "supplier_name": "Innotype",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "26-860-4618"
@@ -8273,8 +8273,8 @@
   {
     "_id": "Izio",
     "supplier_name": "Izio",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "14-231-9135",
@@ -8343,8 +8343,8 @@
   {
     "_id": "Jabbercube",
     "supplier_name": "Jabbercube",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "09-489-6314",
@@ -8411,8 +8411,8 @@
   {
     "_id": "Jabbersphere",
     "supplier_name": "Jabbersphere",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "06-315-0552",
@@ -8549,8 +8549,8 @@
   {
     "_id": "Jabberstorm",
     "supplier_name": "Jabberstorm",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "39-299-6093",
@@ -8609,8 +8609,8 @@
   {
     "_id": "Jabbertype",
     "supplier_name": "Jabbertype",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "66-317-4895",
@@ -8669,8 +8669,8 @@
   {
     "_id": "Jaloo",
     "supplier_name": "Jaloo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "23-178-8962",
@@ -8711,8 +8711,8 @@
   {
     "_id": "Jamia",
     "supplier_name": "Jamia",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "17-939-1338"
@@ -8752,8 +8752,8 @@
   {
     "_id": "Janyx",
     "supplier_name": "Janyx",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "79-086-1717",
@@ -8831,8 +8831,8 @@
   {
     "_id": "Jatri",
     "supplier_name": "Jatri",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "26-438-8349",
@@ -8908,8 +8908,8 @@
   {
     "_id": "Jaxbean",
     "supplier_name": "Jaxbean",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "53-497-9614"
@@ -8940,8 +8940,8 @@
   {
     "_id": "Jaxnation",
     "supplier_name": "Jaxnation",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "31-524-1628",
@@ -9017,8 +9017,8 @@
   {
     "_id": "Jaxspan",
     "supplier_name": "Jaxspan",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "08-523-5066",
@@ -9139,8 +9139,8 @@
   {
     "_id": "Jaxworks",
     "supplier_name": "Jaxworks",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "22-050-5775",
@@ -9191,8 +9191,8 @@
   {
     "_id": "Jayo",
     "supplier_name": "Jayo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "25-190-3172",
@@ -9295,8 +9295,8 @@
   {
     "_id": "Jazzy",
     "supplier_name": "Jazzy",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "34-303-5097",
@@ -9357,8 +9357,8 @@
   {
     "_id": "Jetpulse",
     "supplier_name": "Jetpulse",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "01-900-4509",
@@ -9484,8 +9484,8 @@
   {
     "_id": "Jetwire",
     "supplier_name": "Jetwire",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "17-123-1252",
@@ -9527,8 +9527,8 @@
   {
     "_id": "JumpXS",
     "supplier_name": "JumpXS",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "49-591-1019"
@@ -9577,8 +9577,8 @@
   {
     "_id": "Kamba",
     "supplier_name": "Kamba",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "00-023-7719",
@@ -9690,8 +9690,8 @@
   {
     "_id": "Kanoodle",
     "supplier_name": "Kanoodle",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "04-391-8892",
@@ -9794,8 +9794,8 @@
   {
     "_id": "Kare",
     "supplier_name": "Kare",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "44-646-7502",
@@ -9845,8 +9845,8 @@
   {
     "_id": "Katz",
     "supplier_name": "Katz",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "10-762-7936",
@@ -10061,8 +10061,8 @@
   {
     "_id": "Kaymbo",
     "supplier_name": "Kaymbo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "03-882-3517"
@@ -10102,8 +10102,8 @@
   {
     "_id": "Kayveo",
     "supplier_name": "Kayveo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "19-469-9841",
@@ -10213,8 +10213,8 @@
   {
     "_id": "Kazio",
     "supplier_name": "Kazio",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "36-138-9045"
@@ -10245,8 +10245,8 @@
   {
     "_id": "Kazu",
     "supplier_name": "Kazu",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "29-122-7037",
@@ -10304,8 +10304,8 @@
   {
     "_id": "Kimia",
     "supplier_name": "Kimia",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "40-515-1141",
@@ -10372,8 +10372,8 @@
   {
     "_id": "Kwideo",
     "supplier_name": "Kwideo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "37-281-2537",
@@ -10425,8 +10425,8 @@
   {
     "_id": "Kwilith",
     "supplier_name": "Kwilith",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "31-892-6816",
@@ -10494,8 +10494,8 @@
   {
     "_id": "Kwimbee",
     "supplier_name": "Kwimbee",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "06-286-2758",
@@ -10572,8 +10572,8 @@
   {
     "_id": "Kwinu",
     "supplier_name": "Kwinu",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "53-844-0478",
@@ -10631,8 +10631,8 @@
   {
     "_id": "Lajo",
     "supplier_name": "Lajo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "22-959-6357",
@@ -10685,8 +10685,8 @@
   {
     "_id": "Latz",
     "supplier_name": "Latz",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "32-771-2617",
@@ -10753,8 +10753,8 @@
   {
     "_id": "Layo",
     "supplier_name": "Layo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "23-482-0516",
@@ -10840,8 +10840,8 @@
   {
     "_id": "Lazz",
     "supplier_name": "Lazz",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "23-274-3305",
@@ -10944,8 +10944,8 @@
   {
     "_id": "Leenti",
     "supplier_name": "Leenti",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "14-427-6604"
@@ -10985,8 +10985,8 @@
   {
     "_id": "Linkbridge",
     "supplier_name": "Linkbridge",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "33-265-4588",
@@ -11027,8 +11027,8 @@
   {
     "_id": "Linklinks",
     "supplier_name": "Linklinks",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "04-726-3363",
@@ -11115,8 +11115,8 @@
   {
     "_id": "Linktype",
     "supplier_name": "Linktype",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "46-316-6919",
@@ -11200,8 +11200,8 @@
   {
     "_id": "LiveZ",
     "supplier_name": "LiveZ",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "02-997-1489",
@@ -11260,8 +11260,8 @@
   {
     "_id": "Livefish",
     "supplier_name": "Livefish",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "56-823-5908"
@@ -11310,8 +11310,8 @@
   {
     "_id": "Livepath",
     "supplier_name": "Livepath",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "22-836-5101",
@@ -11395,8 +11395,8 @@
   {
     "_id": "Livetube",
     "supplier_name": "Livetube",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "02-272-0535",
@@ -11507,8 +11507,8 @@
   {
     "_id": "Meedoo",
     "supplier_name": "Meedoo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "02-156-7270",
@@ -11567,8 +11567,8 @@
   {
     "_id": "Meejo",
     "supplier_name": "Meejo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "17-546-8875",
@@ -11617,8 +11617,8 @@
   {
     "_id": "Meembee",
     "supplier_name": "Meembee",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "00-487-2428",
@@ -11711,8 +11711,8 @@
   {
     "_id": "Meemm",
     "supplier_name": "Meemm",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "89-843-0880",
@@ -11753,8 +11753,8 @@
   {
     "_id": "Meetz",
     "supplier_name": "Meetz",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "63-969-9608"
@@ -11803,8 +11803,8 @@
   {
     "_id": "Meevee",
     "supplier_name": "Meevee",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "02-057-9401",
@@ -12025,8 +12025,8 @@
   {
     "_id": "Meeveo",
     "supplier_name": "Meeveo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "29-156-0691",
@@ -12087,8 +12087,8 @@
   {
     "_id": "Meezzy",
     "supplier_name": "Meezzy",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "01-285-0018"
@@ -12119,8 +12119,8 @@
   {
     "_id": "Miboo",
     "supplier_name": "Miboo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "04-313-0298",
@@ -12196,8 +12196,8 @@
   {
     "_id": "Midel",
     "supplier_name": "Midel",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "38-622-5251",
@@ -12231,8 +12231,8 @@
   {
     "_id": "Mudo",
     "supplier_name": "Mudo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "09-387-1119",
@@ -12291,8 +12291,8 @@
   {
     "_id": "Muxo",
     "supplier_name": "Muxo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "67-679-4930"
@@ -12332,8 +12332,8 @@
   {
     "_id": "Mybuzz",
     "supplier_name": "Mybuzz",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "12-947-4739",
@@ -12411,8 +12411,8 @@
   {
     "_id": "Mycat",
     "supplier_name": "Mycat",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "52-359-1255"
@@ -12443,8 +12443,8 @@
   {
     "_id": "Mydeo",
     "supplier_name": "Mydeo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "38-883-3382",
@@ -12529,8 +12529,8 @@
   {
     "_id": "Mydo",
     "supplier_name": "Mydo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "17-239-6309",
@@ -12589,8 +12589,8 @@
   {
     "_id": "Mymm",
     "supplier_name": "Mymm",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "50-877-0990"
@@ -12621,8 +12621,8 @@
   {
     "_id": "Mynte",
     "supplier_name": "Mynte",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "27-970-8649",
@@ -12698,8 +12698,8 @@
   {
     "_id": "Myworks",
     "supplier_name": "Myworks",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "26-280-5472"
@@ -12730,8 +12730,8 @@
   {
     "_id": "Npath",
     "supplier_name": "Npath",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "02-165-5779",
@@ -12791,8 +12791,8 @@
   {
     "_id": "Ntag",
     "supplier_name": "Ntag",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "71-727-8611",
@@ -12834,8 +12834,8 @@
   {
     "_id": "Ntags",
     "supplier_name": "Ntags",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "01-517-7793",
@@ -12877,8 +12877,8 @@
   {
     "_id": "Oba",
     "supplier_name": "Oba",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "37-079-2530",
@@ -12955,8 +12955,8 @@
   {
     "_id": "Oloo",
     "supplier_name": "Oloo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "19-978-0708",
@@ -13014,8 +13014,8 @@
   {
     "_id": "Omba",
     "supplier_name": "Omba",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "16-869-7328",
@@ -13127,8 +13127,8 @@
   {
     "_id": "Ooba",
     "supplier_name": "Ooba",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "65-160-1426",
@@ -13187,8 +13187,8 @@
   {
     "_id": "Oozz",
     "supplier_name": "Oozz",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "29-359-0109",
@@ -13247,8 +13247,8 @@
   {
     "_id": "Oyoba",
     "supplier_name": "Oyoba",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "54-529-4459"
@@ -13305,8 +13305,8 @@
   {
     "_id": "Oyoloo",
     "supplier_name": "Oyoloo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "35-835-8848",
@@ -13392,8 +13392,8 @@
   {
     "_id": "Oyonder",
     "supplier_name": "Oyonder",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "41-978-3326"
@@ -13424,8 +13424,8 @@
   {
     "_id": "Oyondu",
     "supplier_name": "Oyondu",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "12-431-9207",
@@ -13528,8 +13528,8 @@
   {
     "_id": "Oyoyo",
     "supplier_name": "Oyoyo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "21-792-1000",
@@ -13588,8 +13588,8 @@
   {
     "_id": "Ozu",
     "supplier_name": "Ozu",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "17-084-8551",
@@ -13667,8 +13667,8 @@
   {
     "_id": "Photobean",
     "supplier_name": "Photobean",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "56-050-1773",
@@ -13771,8 +13771,8 @@
   {
     "_id": "Photobug",
     "supplier_name": "Photobug",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "22-307-4653",
@@ -13918,8 +13918,8 @@
   {
     "_id": "Photofeed",
     "supplier_name": "Photofeed",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "26-213-7885",
@@ -13995,8 +13995,8 @@
   {
     "_id": "Photojam",
     "supplier_name": "Photojam",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "88-663-3393"
@@ -14053,8 +14053,8 @@
   {
     "_id": "Photolist",
     "supplier_name": "Photolist",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "83-936-5065"
@@ -14111,8 +14111,8 @@
   {
     "_id": "Photospace",
     "supplier_name": "Photospace",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "20-608-1290",
@@ -14187,8 +14187,8 @@
   {
     "_id": "Pixoboo",
     "supplier_name": "Pixoboo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "19-893-7698"
@@ -14228,8 +14228,8 @@
   {
     "_id": "Pixonyx",
     "supplier_name": "Pixonyx",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "07-809-0926",
@@ -14299,8 +14299,8 @@
   {
     "_id": "Pixope",
     "supplier_name": "Pixope",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "75-328-1709"
@@ -14340,8 +14340,8 @@
   {
     "_id": "Plajo",
     "supplier_name": "Plajo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "37-519-7762",
@@ -14409,8 +14409,8 @@
   {
     "_id": "Podcat",
     "supplier_name": "Podcat",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "11-005-7835"
@@ -14459,8 +14459,8 @@
   {
     "_id": "Quamba",
     "supplier_name": "Quamba",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "22-644-6447",
@@ -14535,8 +14535,8 @@
   {
     "_id": "Quatz",
     "supplier_name": "Quatz",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "12-140-7809",
@@ -14724,8 +14724,8 @@
   {
     "_id": "Quaxo",
     "supplier_name": "Quaxo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "45-331-8563",
@@ -14794,8 +14794,8 @@
   {
     "_id": "Quimm",
     "supplier_name": "Quimm",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "42-361-6981"
@@ -14826,8 +14826,8 @@
   {
     "_id": "Quinu",
     "supplier_name": "Quinu",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "05-727-0033",
@@ -14956,8 +14956,8 @@
   {
     "_id": "Quire",
     "supplier_name": "Quire",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "11-146-9880",
@@ -15032,8 +15032,8 @@
   {
     "_id": "Realblab",
     "supplier_name": "Realblab",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "02-575-7332",
@@ -15134,8 +15134,8 @@
   {
     "_id": "Realbridge",
     "supplier_name": "Realbridge",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "33-898-6242"
@@ -15184,8 +15184,8 @@
   {
     "_id": "Realcube",
     "supplier_name": "Realcube",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "40-443-3362",
@@ -15245,8 +15245,8 @@
   {
     "_id": "Realfire",
     "supplier_name": "Realfire",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "18-260-7354"
@@ -15303,8 +15303,8 @@
   {
     "_id": "Reallinks",
     "supplier_name": "Reallinks",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "03-615-0558",
@@ -15370,8 +15370,8 @@
   {
     "_id": "Realmix",
     "supplier_name": "Realmix",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "41-772-9238",
@@ -15448,8 +15448,8 @@
   {
     "_id": "Realpoint",
     "supplier_name": "Realpoint",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "10-540-5841",
@@ -15517,8 +15517,8 @@
   {
     "_id": "Rhybox",
     "supplier_name": "Rhybox",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "29-542-9338",
@@ -15577,8 +15577,8 @@
   {
     "_id": "Rhycero",
     "supplier_name": "Rhycero",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "39-464-7300",
@@ -15621,8 +15621,8 @@
   {
     "_id": "Rhyloo",
     "supplier_name": "Rhyloo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "41-881-1166",
@@ -15700,8 +15700,8 @@
   {
     "_id": "Rhynoodle",
     "supplier_name": "Rhynoodle",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "32-745-8366",
@@ -15752,8 +15752,8 @@
   {
     "_id": "Rhynyx",
     "supplier_name": "Rhynyx",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "35-042-9391",
@@ -15829,8 +15829,8 @@
   {
     "_id": "Rhyzio",
     "supplier_name": "Rhyzio",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "04-866-2231",
@@ -15905,8 +15905,8 @@
   {
     "_id": "Riffpedia",
     "supplier_name": "Riffpedia",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "62-766-8232"
@@ -15937,8 +15937,8 @@
   {
     "_id": "Riffwire",
     "supplier_name": "Riffwire",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "28-442-2578",
@@ -15998,8 +15998,8 @@
   {
     "_id": "Roodel",
     "supplier_name": "Roodel",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "23-931-2988",
@@ -16048,8 +16048,8 @@
   {
     "_id": "Roombo",
     "supplier_name": "Roombo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "27-557-2375",
@@ -16110,8 +16110,8 @@
   {
     "_id": "Roomm",
     "supplier_name": "Roomm",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "59-595-7531",
@@ -16187,8 +16187,8 @@
   {
     "_id": "Rooxo",
     "supplier_name": "Rooxo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "07-410-2867",
@@ -16263,8 +16263,8 @@
   {
     "_id": "Shufflebeat",
     "supplier_name": "Shufflebeat",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "09-902-6272",
@@ -16315,8 +16315,8 @@
   {
     "_id": "Shuffledrive",
     "supplier_name": "Shuffledrive",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "07-578-7055",
@@ -16445,8 +16445,8 @@
   {
     "_id": "Shufflester",
     "supplier_name": "Shufflester",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "23-197-9965",
@@ -16532,8 +16532,8 @@
   {
     "_id": "Shuffletag",
     "supplier_name": "Shuffletag",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "10-008-6747",
@@ -16609,8 +16609,8 @@
   {
     "_id": "Skaboo",
     "supplier_name": "Skaboo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "18-490-4140",
@@ -16678,8 +16678,8 @@
   {
     "_id": "Skajo",
     "supplier_name": "Skajo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "26-411-9126",
@@ -16764,8 +16764,8 @@
   {
     "_id": "Skalith",
     "supplier_name": "Skalith",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "21-697-8128",
@@ -16852,8 +16852,8 @@
   {
     "_id": "Skiba",
     "supplier_name": "Skiba",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "06-159-1957"
@@ -16902,8 +16902,8 @@
   {
     "_id": "Skibox",
     "supplier_name": "Skibox",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "09-153-0763",
@@ -16990,8 +16990,8 @@
   {
     "_id": "Skidoo",
     "supplier_name": "Skidoo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "05-181-2682",
@@ -17104,8 +17104,8 @@
   {
     "_id": "Skilith",
     "supplier_name": "Skilith",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "40-773-7065",
@@ -17165,8 +17165,8 @@
   {
     "_id": "Skimia",
     "supplier_name": "Skimia",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "05-719-6858",
@@ -17295,8 +17295,8 @@
   {
     "_id": "Skinix",
     "supplier_name": "Skinix",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "26-222-1156",
@@ -17396,8 +17396,8 @@
   {
     "_id": "Skinte",
     "supplier_name": "Skinte",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "06-708-1412",
@@ -17439,8 +17439,8 @@
   {
     "_id": "Skipfire",
     "supplier_name": "Skipfire",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "41-083-3955",
@@ -17568,8 +17568,8 @@
   {
     "_id": "Skippad",
     "supplier_name": "Skippad",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "22-152-0111",
@@ -17611,8 +17611,8 @@
   {
     "_id": "Skipstorm",
     "supplier_name": "Skipstorm",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "73-069-2753",
@@ -17633,8 +17633,8 @@
   {
     "_id": "Skiptube",
     "supplier_name": "Skiptube",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "14-190-2260",
@@ -17700,8 +17700,8 @@
   {
     "_id": "Skivee",
     "supplier_name": "Skivee",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "03-220-5535",
@@ -17761,8 +17761,8 @@
   {
     "_id": "Skyba",
     "supplier_name": "Skyba",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "82-266-1796",
@@ -17813,8 +17813,8 @@
   {
     "_id": "Skyble",
     "supplier_name": "Skyble",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "41-587-4864",
@@ -17857,8 +17857,8 @@
   {
     "_id": "Skyndu",
     "supplier_name": "Skyndu",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "14-486-5626",
@@ -17945,8 +17945,8 @@
   {
     "_id": "Skynoodle",
     "supplier_name": "Skynoodle",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "00-131-9278",
@@ -18048,8 +18048,8 @@
   {
     "_id": "Skyvu",
     "supplier_name": "Skyvu",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "29-567-3732"
@@ -18089,8 +18089,8 @@
   {
     "_id": "Snaptags",
     "supplier_name": "Snaptags",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "25-414-2945",
@@ -18139,8 +18139,8 @@
   {
     "_id": "Tagcat",
     "supplier_name": "Tagcat",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "30-605-2164",
@@ -18232,8 +18232,8 @@
   {
     "_id": "Tagchat",
     "supplier_name": "Tagchat",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "23-109-2205",
@@ -18283,8 +18283,8 @@
   {
     "_id": "Tagfeed",
     "supplier_name": "Tagfeed",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "04-391-7610",
@@ -18334,8 +18334,8 @@
   {
     "_id": "Tagopia",
     "supplier_name": "Tagopia",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "25-741-5987",
@@ -18430,8 +18430,8 @@
   {
     "_id": "Tagpad",
     "supplier_name": "Tagpad",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "08-359-2568",
@@ -18490,8 +18490,8 @@
   {
     "_id": "Tagtune",
     "supplier_name": "Tagtune",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "14-724-4622",
@@ -18550,8 +18550,8 @@
   {
     "_id": "Talane",
     "supplier_name": "Talane",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "05-966-6460",
@@ -18653,8 +18653,8 @@
   {
     "_id": "Tambee",
     "supplier_name": "Tambee",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "78-954-5649"
@@ -18674,8 +18674,8 @@
   {
     "_id": "Tanoodle",
     "supplier_name": "Tanoodle",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "07-067-3439",
@@ -18785,8 +18785,8 @@
   {
     "_id": "Tavu",
     "supplier_name": "Tavu",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "75-256-5638",
@@ -18845,8 +18845,8 @@
   {
     "_id": "Tazz",
     "supplier_name": "Tazz",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "32-914-1424",
@@ -18932,8 +18932,8 @@
   {
     "_id": "Tekfly",
     "supplier_name": "Tekfly",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "77-471-0792"
@@ -18973,8 +18973,8 @@
   {
     "_id": "Teklist",
     "supplier_name": "Teklist",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "30-780-7583"
@@ -19014,8 +19014,8 @@
   {
     "_id": "Thoughtbeat",
     "supplier_name": "Thoughtbeat",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "00-258-2525",
@@ -19118,8 +19118,8 @@
   {
     "_id": "Thoughtblab",
     "supplier_name": "Thoughtblab",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "01-445-8931",
@@ -19215,8 +19215,8 @@
   {
     "_id": "Thoughtbridge",
     "supplier_name": "Thoughtbridge",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "34-667-8907"
@@ -19256,8 +19256,8 @@
   {
     "_id": "Thoughtmix",
     "supplier_name": "Thoughtmix",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "49-608-3851",
@@ -19290,8 +19290,8 @@
   {
     "_id": "Thoughtsphere",
     "supplier_name": "Thoughtsphere",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "39-521-8484",
@@ -19357,8 +19357,8 @@
   {
     "_id": "Thoughtstorm",
     "supplier_name": "Thoughtstorm",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "32-182-1895",
@@ -19435,8 +19435,8 @@
   {
     "_id": "Thoughtworks",
     "supplier_name": "Thoughtworks",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "37-921-2953"
@@ -19476,8 +19476,8 @@
   {
     "_id": "Topdrive",
     "supplier_name": "Topdrive",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "27-406-7972",
@@ -19611,8 +19611,8 @@
   {
     "_id": "Topicblab",
     "supplier_name": "Topicblab",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "18-445-5057",
@@ -19681,8 +19681,8 @@
   {
     "_id": "Topiclounge",
     "supplier_name": "Topiclounge",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "07-754-2313",
@@ -19749,8 +19749,8 @@
   {
     "_id": "Topicshots",
     "supplier_name": "Topicshots",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "27-060-9944",
@@ -19818,8 +19818,8 @@
   {
     "_id": "Topicstorm",
     "supplier_name": "Topicstorm",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "34-334-6888",
@@ -19905,8 +19905,8 @@
   {
     "_id": "Topicware",
     "supplier_name": "Topicware",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "36-451-3173",
@@ -19938,8 +19938,8 @@
   {
     "_id": "Topiczoom",
     "supplier_name": "Topiczoom",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "15-062-6342"
@@ -19988,8 +19988,8 @@
   {
     "_id": "Trilia",
     "supplier_name": "Trilia",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "03-257-4437",
@@ -20040,8 +20040,8 @@
   {
     "_id": "Trilith",
     "supplier_name": "Trilith",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "37-996-3243"
@@ -20081,8 +20081,8 @@
   {
     "_id": "Trudeo",
     "supplier_name": "Trudeo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "10-295-7996",
@@ -20157,8 +20157,8 @@
   {
     "_id": "Trudoo",
     "supplier_name": "Trudoo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "67-541-7091"
@@ -20189,8 +20189,8 @@
   {
     "_id": "Trunyx",
     "supplier_name": "Trunyx",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "07-948-8632",
@@ -20212,8 +20212,8 @@
   {
     "_id": "Trupe",
     "supplier_name": "Trupe",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "23-688-6256",
@@ -20263,8 +20263,8 @@
   {
     "_id": "Twimm",
     "supplier_name": "Twimm",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "41-007-0132",
@@ -20305,8 +20305,8 @@
   {
     "_id": "Twinte",
     "supplier_name": "Twinte",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "62-599-8388"
@@ -20337,8 +20337,8 @@
   {
     "_id": "Twitterbeat",
     "supplier_name": "Twitterbeat",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "27-532-7847",
@@ -20433,8 +20433,8 @@
   {
     "_id": "Twitterbridge",
     "supplier_name": "Twitterbridge",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "76-797-9430",
@@ -20474,8 +20474,8 @@
   {
     "_id": "Twitterlist",
     "supplier_name": "Twitterlist",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "38-200-4863"
@@ -20515,8 +20515,8 @@
   {
     "_id": "Twitternation",
     "supplier_name": "Twitternation",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "50-918-1373",
@@ -20583,8 +20583,8 @@
   {
     "_id": "Twitterwire",
     "supplier_name": "Twitterwire",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "12-566-2563",
@@ -20698,8 +20698,8 @@
   {
     "_id": "Twitterworks",
     "supplier_name": "Twitterworks",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "50-305-3936"
@@ -20748,8 +20748,8 @@
   {
     "_id": "Twiyo",
     "supplier_name": "Twiyo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "54-659-1177"
@@ -20780,8 +20780,8 @@
   {
     "_id": "Vidoo",
     "supplier_name": "Vidoo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "01-801-9502",
@@ -20867,8 +20867,8 @@
   {
     "_id": "Vimbo",
     "supplier_name": "Vimbo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "13-526-1392",
@@ -20978,8 +20978,8 @@
   {
     "_id": "Vinder",
     "supplier_name": "Vinder",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "15-550-0171",
@@ -21125,8 +21125,8 @@
   {
     "_id": "Vinte",
     "supplier_name": "Vinte",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "37-099-6976",
@@ -21185,8 +21185,8 @@
   {
     "_id": "Vipe",
     "supplier_name": "Vipe",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "21-634-5781",
@@ -21253,8 +21253,8 @@
   {
     "_id": "Vitz",
     "supplier_name": "Vitz",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "57-615-0729",
@@ -21345,8 +21345,8 @@
   {
     "_id": "Viva",
     "supplier_name": "Viva",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "08-824-4585",
@@ -21439,8 +21439,8 @@
   {
     "_id": "Voolia",
     "supplier_name": "Voolia",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "30-820-2883",
@@ -21484,8 +21484,8 @@
   {
     "_id": "Voolith",
     "supplier_name": "Voolith",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "01-308-0960",
@@ -21596,8 +21596,8 @@
   {
     "_id": "Voomm",
     "supplier_name": "Voomm",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "61-040-9004",
@@ -21684,8 +21684,8 @@
   {
     "_id": "Voonder",
     "supplier_name": "Voonder",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "14-414-1945",
@@ -21777,8 +21777,8 @@
   {
     "_id": "Voonix",
     "supplier_name": "Voonix",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "05-593-1927"
@@ -21818,8 +21818,8 @@
   {
     "_id": "Voonte",
     "supplier_name": "Voonte",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "42-579-7177"
@@ -21859,8 +21859,8 @@
   {
     "_id": "Voonyx",
     "supplier_name": "Voonyx",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "45-903-0036",
@@ -21910,8 +21910,8 @@
   {
     "_id": "Wikibox",
     "supplier_name": "Wikibox",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "28-436-5158",
@@ -21988,8 +21988,8 @@
   {
     "_id": "Wikido",
     "supplier_name": "Wikido",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "74-032-7560",
@@ -22066,8 +22066,8 @@
   {
     "_id": "Wikivu",
     "supplier_name": "Wikivu",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "11-098-3982"
@@ -22107,8 +22107,8 @@
   {
     "_id": "Wikizz",
     "supplier_name": "Wikizz",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "19-985-9694",
@@ -22193,8 +22193,8 @@
   {
     "_id": "Wordify",
     "supplier_name": "Wordify",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "18-682-7828",
@@ -22261,8 +22261,8 @@
   {
     "_id": "Wordpedia",
     "supplier_name": "Wordpedia",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "03-983-0515",
@@ -22331,8 +22331,8 @@
   {
     "_id": "Wordtune",
     "supplier_name": "Wordtune",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "41-644-3129",
@@ -22400,8 +22400,8 @@
   {
     "_id": "Wordware",
     "supplier_name": "Wordware",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "05-779-0378",
@@ -22477,8 +22477,8 @@
   {
     "_id": "Yabox",
     "supplier_name": "Yabox",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "02-575-2074",
@@ -22546,8 +22546,8 @@
   {
     "_id": "Yadel",
     "supplier_name": "Yadel",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "07-432-0137",
@@ -22590,8 +22590,8 @@
   {
     "_id": "Yakidoo",
     "supplier_name": "Yakidoo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "39-714-7313"
@@ -22639,8 +22639,8 @@
   {
     "_id": "Yakijo",
     "supplier_name": "Yakijo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "03-117-6217",
@@ -22707,8 +22707,8 @@
   {
     "_id": "Yakitri",
     "supplier_name": "Yakitri",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "53-243-7800",
@@ -22810,8 +22810,8 @@
   {
     "_id": "Yambee",
     "supplier_name": "Yambee",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "61-100-8296",
@@ -22870,8 +22870,8 @@
   {
     "_id": "Yamia",
     "supplier_name": "Yamia",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "48-878-3021",
@@ -22956,8 +22956,8 @@
   {
     "_id": "Yata",
     "supplier_name": "Yata",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "33-546-5056",
@@ -23041,8 +23041,8 @@
   {
     "_id": "Yodel",
     "supplier_name": "Yodel",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "34-724-1913"
@@ -23090,8 +23090,8 @@
   {
     "_id": "Yodo",
     "supplier_name": "Yodo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "31-955-7362",
@@ -23210,8 +23210,8 @@
   {
     "_id": "Yodoo",
     "supplier_name": "Yodoo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "01-431-7544",
@@ -23272,8 +23272,8 @@
   {
     "_id": "Yombu",
     "supplier_name": "Yombu",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "48-450-4126",
@@ -23390,8 +23390,8 @@
   {
     "_id": "Yotz",
     "supplier_name": "Yotz",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "08-141-2402",
@@ -23485,8 +23485,8 @@
   {
     "_id": "Youbridge",
     "supplier_name": "Youbridge",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "34-315-1199",
@@ -23582,8 +23582,8 @@
   {
     "_id": "Youfeed",
     "supplier_name": "Youfeed",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "14-713-5795",
@@ -23670,8 +23670,8 @@
   {
     "_id": "Youopia",
     "supplier_name": "Youopia",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "28-461-1136",
@@ -23721,8 +23721,8 @@
   {
     "_id": "Youspan",
     "supplier_name": "Youspan",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "58-657-7257",
@@ -23796,8 +23796,8 @@
   {
     "_id": "Youtags",
     "supplier_name": "Youtags",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "39-257-6162",
@@ -23864,8 +23864,8 @@
   {
     "_id": "Yoveo",
     "supplier_name": "Yoveo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "35-979-6839",
@@ -23926,8 +23926,8 @@
   {
     "_id": "Yozio",
     "supplier_name": "Yozio",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "14-325-9173",
@@ -23977,8 +23977,8 @@
   {
     "_id": "Zava",
     "supplier_name": "Zava",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "27-292-4656",
@@ -24080,8 +24080,8 @@
   {
     "_id": "Zazio",
     "supplier_name": "Zazio",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "80-848-7493",
@@ -24114,8 +24114,8 @@
   {
     "_id": "Zoombeat",
     "supplier_name": "Zoombeat",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "79-366-7207"
@@ -24146,8 +24146,8 @@
   {
     "_id": "Zoombox",
     "supplier_name": "Zoombox",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "06-303-4127",
@@ -24233,8 +24233,8 @@
   {
     "_id": "Zoomlounge",
     "supplier_name": "Zoomlounge",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "34-161-7429"
@@ -24274,8 +24274,8 @@
   {
     "_id": "Zoomzone",
     "supplier_name": "Zoomzone",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "86-879-7811"
@@ -24323,8 +24323,8 @@
   {
     "_id": "Zoonder",
     "supplier_name": "Zoonder",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "00-900-0119",
@@ -24402,8 +24402,8 @@
   {
     "_id": "Zoonoodle",
     "supplier_name": "Zoonoodle",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "77-175-2969"
@@ -24461,8 +24461,8 @@
   {
     "_id": "Zooveo",
     "supplier_name": "Zooveo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "78-381-5054"
@@ -24493,8 +24493,8 @@
   {
     "_id": "Zoovu",
     "supplier_name": "Zoovu",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "01-665-0053",
@@ -24571,8 +24571,8 @@
   {
     "_id": "Zooxo",
     "supplier_name": "Zooxo",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "18-631-1458",
@@ -24639,8 +24639,8 @@
   {
     "_id": "Zoozzy",
     "supplier_name": "Zoozzy",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "39-055-1703"

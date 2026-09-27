@@ -8,7 +8,7 @@ Extraction / Cleansing:
   - Quarantined rows         : 0 -> quarantined_rows.csv
   - Cleaned rows             : 990 -> cleaned_grocery_inventory.csv
 
-SQLite Load (grocery_warehouse.db):
+SQLite Load (warehouse.db):
   - fact_inventory rows      : 990
   - dim_product / supplier / store : 124 / 350 / 990
   - last_order_date range    : 2024-02-25 to 2025-02-24
@@ -71,9 +71,9 @@ Analytics - monthly_variance.sql:
     ... (7 more rows)
 
 Verification artifacts:
-  - SQLite DB                : C:\Users\Pixel-Tone\Documents\GitHub\FourthYearProjects\data_warehousing\midterms\miniProjectPhase1\grocery_warehouse.db
+  - SQLite DB                : C:\Users\Pixel-Tone\Documents\GitHub\FourthYearProjects\data_warehousing\midterms\miniProjectPhase1\warehouse.db
   - Audit JSON export        : C:\Users\Pixel-Tone\Documents\GitHub\FourthYearProjects\data_warehousing\midterms\miniProjectPhase1\supplier_audit_logs.json
   - Mongo verification       : C:\Users\Pixel-Tone\Documents\GitHub\FourthYearProjects\data_warehousing\midterms\miniProjectPhase1\mongo_verification.json
-  - Summary report           : C:\Users\Pixel-Tone\Documents\GitHub\FourthYearProjects\data_warehousing\midterms\miniProjectPhase1\pipeline_summary.txt
+  - Summary report           : C:\Users\Pixel-Tone\Documents\GitHub\FourthYearProjects\data_warehousing\midterms\miniProjectPhase1\milestone1_log.txt
 
-Execution time              : 20.13 seconds
+Execution time              : 22.90 seconds

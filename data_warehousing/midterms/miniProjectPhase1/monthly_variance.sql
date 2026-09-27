@@ -1,3 +1,4 @@
+-- >>> monthly_sales_variance
 WITH monthly_sales AS (
     SELECT
         strftime('%Y-%m', last_order_date)      AS sales_month,
@@ -24,6 +25,7 @@ monthly_variance AS (
 )
 SELECT * FROM monthly_variance ORDER BY sales_month;
 
+-- >>> category_monthly_variance
 WITH category_monthly AS (
     SELECT
         p.category,
@@ -52,6 +54,7 @@ category_variance AS (
 )
 SELECT * FROM category_variance ORDER BY category, sales_month;
 
+-- >>> monthly_reorder_pressure
 WITH monthly_flagged AS (
     SELECT
         strftime('%Y-%m', last_order_date)  AS sales_month,
@@ -73,6 +76,7 @@ SELECT
 FROM monthly_flagged
 ORDER BY sales_month;
 
+-- >>> top_stockout_risks
 SELECT
     product_id,
     product_name,

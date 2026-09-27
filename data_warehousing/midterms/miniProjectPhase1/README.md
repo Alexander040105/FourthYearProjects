@@ -12,15 +12,15 @@ logs in MongoDB → run monthly sales variance queries using SQL CTEs.
 | File | Purpose |
 |---|---|
 | `Grocery_Inventory_and_Sales_Dataset.csv` | Raw extract (990 rows × 16 cols) |
-| `grocery_etl.py` | Full ETL pipeline: extract → cleanse → SQLite + MongoDB load → analytics |
+| `etl_pipeline.py` | Full ETL pipeline: extract → cleanse → SQLite + MongoDB load → analytics |
 | `monthly_variance.sql` | CTE-based analytics (monthly variance, reorder pressure, stockout list) |
 | `miniProjectPhase1.ipynb` | Narrated walkthrough notebook (executed) |
 | `cleaned_grocery_inventory.csv` | Cleaned output dataset |
 | `quarantined_rows.csv` | Rows that failed validation (with reason) — currently empty |
-| `grocery_warehouse.db` | SQLite warehouse (star schema + views) |
+| `warehouse.db` | SQLite warehouse (star schema + views) |
 | `supplier_audit_logs.json` | Local export of the MongoDB audit documents |
 | `mongo_verification.json` | Sample document + collection count proof |
-| `pipeline_summary.txt` | Full run report |
+| `milestone1_log.txt` | Full run report (Milestone 1 execution audit log) |
 
 ## Data quality issues found & fixed
 
@@ -77,10 +77,10 @@ From the repo root, using the project `.venv`:
 
 ```powershell
 cd data_warehousing\midterms\miniProjectPhase1
-..\..\..\.venv\Scripts\python.exe grocery_etl.py                # full run (needs MONGODB_URI)
-..\..\..\.venv\Scripts\python.exe grocery_etl.py --dry-run      # offline run via mongomock
-..\..\..\.venv\Scripts\python.exe grocery_etl.py --skip-mongo   # SQLite only
-..\..\..\.venv\Scripts\python.exe grocery_etl.py --full-refresh # rebuild targets
+..\..\..\.venv\Scripts\python.exe etl_pipeline.py                # full run (needs MONGODB_URI)
+..\..\..\.venv\Scripts\python.exe etl_pipeline.py --dry-run      # offline run via mongomock
+..\..\..\.venv\Scripts\python.exe etl_pipeline.py --skip-mongo   # SQLite only
+..\..\..\.venv\Scripts\python.exe etl_pipeline.py --full-refresh # rebuild targets
 ```
 
 MongoDB connection is read from `MONGODB_URI` / `MONGODB_DATABASE` in the first

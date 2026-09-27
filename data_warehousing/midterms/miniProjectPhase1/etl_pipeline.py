@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-grocery_etl.py
+etl_pipeline.py
 Group 8: Retail Grocery Inventory & Point-of-Sale (POS) Warehouse
 Mini Project Phase 1 - Data Warehousing
 
@@ -9,7 +9,7 @@ Extracts the messy grocery inventory/POS extract
 mixed-width M/D/YYYY dates, misspelled 'Catagory' header), quarantines
 unrecoverable rows, and loads:
 
-  - SQLite warehouse  : grocery_warehouse.db
+  - SQLite warehouse  : warehouse.db
         dim_product, dim_supplier, dim_store, fact_inventory
         + v_reorder_recommendations / v_stockout_risk views
   - MongoDB Atlas     : supplier_audit_logs collection
@@ -17,13 +17,13 @@ unrecoverable rows, and loads:
         derived deterministically from the cleaned data.
 
 Then runs the monthly sales variance CTE queries in monthly_variance.sql
-and writes a pipeline_summary.txt report.
+and writes a milestone1_log.txt report.
 
 Usage:
-    python grocery_etl.py                 # incremental run (MongoDB Atlas)
-    python grocery_etl.py --dry-run       # use mongomock instead of Atlas
-    python grocery_etl.py --skip-mongo    # SQLite only
-    python grocery_etl.py --full-refresh  # rebuild targets from scratch
+    python etl_pipeline.py                 # incremental run (MongoDB Atlas)
+    python etl_pipeline.py --dry-run       # use mongomock instead of Atlas
+    python etl_pipeline.py --skip-mongo    # SQLite only
+    python etl_pipeline.py --full-refresh  # rebuild targets from scratch
 
 MongoDB config: MONGODB_URI / MONGODB_DATABASE are read from the first
 .env found in this folder, then in data_warehousing/.env.
@@ -62,13 +62,13 @@ except ImportError:  # pragma: no cover
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 CSV_PATH = SCRIPT_DIR / "Grocery_Inventory_and_Sales_Dataset.csv"
-DB_PATH = SCRIPT_DIR / "grocery_warehouse.db"
+DB_PATH = SCRIPT_DIR / "warehouse.db"
 SQL_PATH = SCRIPT_DIR / "monthly_variance.sql"
 CLEANED_CSV = SCRIPT_DIR / "cleaned_grocery_inventory.csv"
 QUARANTINE_CSV = SCRIPT_DIR / "quarantined_rows.csv"
 AUDIT_EXPORT_JSON = SCRIPT_DIR / "supplier_audit_logs.json"
 MONGO_VERIFY_JSON = SCRIPT_DIR / "mongo_verification.json"
-SUMMARY_PATH = SCRIPT_DIR / "pipeline_summary.txt"
+SUMMARY_PATH = SCRIPT_DIR / "milestone1_log.txt"
 ENV_CANDIDATES = [SCRIPT_DIR / ".env", SCRIPT_DIR.parent.parent / ".env"]
 
 DEFAULT_MONGO_DB = "grocery_warehouse"
@@ -76,7 +76,7 @@ AUDIT_COLLECTION = "supplier_audit_logs"
 
 
 logging.basicConfig(level=logging.INFO, format="%(message)s", stream=sys.stdout)
-logger = logging.getLogger("grocery_etl")
+logger = logging.getLogger("etl_pipeline")
 
 def load_env() -> Optional[Path]:
     """Load KEY=VALUE pairs from the first existing .env candidate.
@@ -567,7 +567,7 @@ def build_supplier_audit_docs(df: pd.DataFrame) -> List[dict]:
             {
                 "_id": supplier_name,
                 "supplier_name": supplier_name,
-                "source": "grocery_etl.py",
+                "source": "etl_pipeline.py",
                 "generated_at": generated_at,
                 "summary": {
                     "supplier_ids": sorted(grp["supplier_id"].tolist()),
@@ -814,7 +814,7 @@ def run() -> None:
         f"  - Quarantined rows         : {metrics['quarantined']} -> {QUARANTINE_CSV.name}",
         f"  - Cleaned rows             : {metrics['cleaned_rows']} -> {CLEANED_CSV.name}",
         "",
-        "SQLite Load (grocery_warehouse.db):",
+        "SQLite Load (warehouse.db):",
         f"  - fact_inventory rows      : {sqlite_counts['fact_inventory']}",
         f"  - dim_product / supplier / store : "
         f"{sqlite_counts['dim_product']} / {sqlite_counts['dim_supplier']} / {sqlite_counts['dim_store']}",

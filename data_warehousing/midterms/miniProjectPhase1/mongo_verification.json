@@ -5,8 +5,8 @@
   "sample_document": {
     "_id": "Abata",
     "supplier_name": "Abata",
-    "source": "grocery_etl.py",
-    "generated_at": "2026-09-21T06:58:25.786793+00:00",
+    "source": "etl_pipeline.py",
+    "generated_at": "2026-09-27T07:02:16.943231+00:00",
     "summary": {
       "supplier_ids": [
         "17-963-6051",
